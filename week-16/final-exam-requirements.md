@@ -1,0 +1,48 @@
+# Final exam requirements
+
+The student, on their own, is able to:
+- Follow indentation and coding styleguides in their code
+- Use and set up linters
+- Create variables, functions, objects in JavaScript / Ruby based on a given specification
+- Use conditions and loops:
+  - Filtering
+  - Finding elements or index
+  - Generating collections
+  - Checking mutiple values and counting
+- Determine the output of expressions
+- Explain their own code
+- Install packages via a package manager
+- Write unit tests for functions and methods without mocking dependencies
+- Include and call 3rd party libraries in their code
+- Use frameworks and know its components and processes
+- Use a build pipeline
+- Use async structures:
+  - Writing functions that are taking and calling callbacks
+  - Determining the calling order in nested callbacks
+- Use git:
+  - Commit, add, push, pull
+  - Resolving a simple merge conflict
+- Use databases:
+  - Implement database calls with JavaScript / Ruby
+  - Write a simple SQL query for a single table:
+    - Listing, Deleting, Updating, Creating rows with specific values
+- Use the command line:
+  - Traversing directories
+  - Moving, copying, creating, deleting files
+  - Passing command line arguments to commands
+- Write backend code:
+  - Implement an HTTP endpoint
+  - Deploy application to hosting service
+- Wrtie frontend code:
+  - Create simple layout in CSS and HTML based on a given specification
+  - Select any HTML element using CSS selectors
+  - Handle events and change the DOM
+  - Change attributes and properties on HTML elements using JavaScript
+- Use build tools:
+  - Running tasks
+  - Modifying configs of tasks
+- Refactor code:
+  - Create meaningfull names for functions, classes and variables
+  - Split bigger functions to smaller ones
+  - Separate functions to different files
+  - Point out code smells`

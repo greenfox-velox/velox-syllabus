@@ -1,0 +1,73 @@
+Algorithms and Coplexity
+
+
+Introduction
+
+The Conception :)
+--------------
+Problem -> Model -> Algorithms -> Program
+
+
+I. Run-time analysis
+-----------------
+	Barkochba
+	How can find the lion, in the savanna
+	
+	Max search - structrogram
+	Max-min search
+	Second largest search
+	
+	Sorted list
+	-----------
+		Max search :)
+		Search
+		
+	Prime search?
+	
+	--?So what is runtime?--
+	
+	
+How can we sort a list?
+-----------------------
+	i)   Bubble-sort
+	https://www.youtube.com/watch?v=lyZQPjUT5B4
+	
+	ii)  Insert-sort	
+	https://www.youtube.com/watch?v=ROalU379l3U
+	
+	iii) Quick-sort
+	https://www.youtube.com/watch?v=ywWBy6J5gz8
+	
+	iv)  Merge-sort
+	https://www.youtube.com/watch?v=XaqR3G_NVoo
+	
+	--?Why do we have so many?--
+	
+	
+	
+Hanoi towers
+------------
+	problem - model - algorithm
+	
+	structogram
+	run-time?
+	The Legend
+	
+
+The Definitions! :O
+-------------------
+Ordo(n), Omega(n), Teta(n)
+
+	P - NP
+
+Story of my Projekt
+-------------------
+MDA - Multi Dimension Auctions
+competition with capacity monitoring
+
+Problem -> model -> Algorithm -> Program
+	
+	- Runtime
+	- Useable
+	
+	

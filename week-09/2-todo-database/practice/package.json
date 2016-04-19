@@ -1,0 +1,14 @@
+{
+  "name": "gallery",
+  "version": "1.0.0",
+  "description": "Very good.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Tojas",
+  "license": "ISC",
+  "dependencies": {
+    "tape": "^4.4.0"
+  }
+}

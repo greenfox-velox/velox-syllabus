@@ -1,0 +1,74 @@
+
+/*
+ *
+ * LAYOUT
+ */
+
+body {
+    margin: 0; /* hogy a default margót leszedjük */
+}
+
+/* FEJLÉCKÉP */
+
+img {
+    width: 100%;
+    height: auto; /* hogy az aránya maradjon */
+}
+
+article {
+    max-width: 700px;
+    /* margin: 0 auto; */
+    /* margin: 0 auto 0 auto; */
+    /* a fentiek rövidítések, ez a kifejtésük: */
+    margin-top: 0;
+    margin-right: auto; /* hogy középen legyen */
+    margin-bottom: 0;
+    margin-left: auto; /* hogy középen legyen */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*
+ *
+ * SZÖVEGFORMÁZÁSOK
+ */
+
+ /* CÍMSOROK */
+
+h1,
+h2 {
+    font-family: Lato;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    color: #444;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #999;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+/* BEKEZDÉSEK */
+
+p {
+    font-family: Merriweather;
+    color: #444;
+    line-height: 1.5;
+}
+
+/* LINKEK */
+
+a {
+    color: #444;
+}
+
+a:hover {
+    color: #999;
+}

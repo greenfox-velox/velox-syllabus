@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+  <head>
+    <title>My Wikipedia FORM</title>
+    <meta charset="utf-8">
+    <link href="style/style.css" rel="stylesheet">
+    <link href="style/form.css" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="main-header">
+        <nav class="user-menu">
+          <ul>
+            <li>Create Account</li>
+            <li>Not logged in</li>
+            <li>Talk</li>
+            <li>Contributions</li>
+            <li>Log in</li>
+          </ul>
+        </nav>
+        <nav class="talk-menu">
+          <ul>
+            <li>Article</li>
+            <li>Talk</li>
+          </ul>
+        </nav>
+        <nav class="edit-menu">
+          <ul>
+            <li>Read</li>
+            <li>Edit</li>
+            <li>View history</li>
+          </ul>
+        </nav>
+        <form class="search">
+         <input type="search">
+        </form>
+      </header>
+      <main class="main-content">
+        <form>
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter your username" id="username">
+            <label for="password">Password</label>
+            <input type="password" placeholder="Enter a password" id="password">
+            <label for="password2">Confirm password</label>
+            <input type="password" placeholder="Enter password again" id="password2">
+            <label for="email">Email address (optional)</label>
+            <input type="text" placeholder="Enter your email address" id="email">
+            <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+            <button type="submit">Create your account</button>
+        </form>
+      </main>
+      <footer class="main-footer">
+
+      </footer>
+    </div>
+    <aside class="main-sidebar">
+      <a href="#" class="logo">Wikipedia</a>
+    </aside>
+  </body>
+</html>

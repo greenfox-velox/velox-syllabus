@@ -1,0 +1,34 @@
+body {
+  color: green;
+}
+
+.container {
+  background: aqua;
+  width: 500px;
+  height: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  /* ua: flex-flow: row wrap; */
+
+}
+
+.box {
+  background: yellow;
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 10px solid red;
+  order: 1;
+  flex-grow: 1;
+}
+
+.first {
+  order: 66;
+  flex-grow: 6;
+  flex-basis: 40%;
+}

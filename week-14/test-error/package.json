@@ -1,0 +1,18 @@
+{
+  "name": "test-error",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node endpoint-test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "supertest": "^1.2.0",
+    "tape": "^4.4.0"
+  }
+}

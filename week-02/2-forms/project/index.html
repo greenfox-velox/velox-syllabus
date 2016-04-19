@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form proba</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Form próba</h1>
+    <form>
+        <p>
+            <label for="valami">Ird ide a valamit*:</label>
+            <input type="text" required id="valami" placeholder="ide">
+        </p>
+        <p>
+            <label for="jelszo">type="password":</label>
+            <input type="password" id="jelszo">
+        </p>
+        <p>
+            <label for="emailcim">type="email":</label>
+            <input type="email" id="emailcim">
+        </p>
+        <p>
+            <label for="webcim">type="url":</label>
+            <input type="url" id="webcim">
+        </p>
+        <p>
+            <label for="kereso">type="search":</label>
+            <input type="search" id="kereso">
+        </p>
+        <p>
+            <label for="szam">type="number":</label>
+            <input type="number" id="szam">
+        </p>
+        <p>
+            <label for="csik">type="range":</label>
+            <input type="range" id="csik">
+        </p>
+        <p>
+            <label for="datum">type="date":</label>
+            <input type="date" id="datum">
+        </p>
+        <p>
+            progress:
+            <progress value="50" max="100">50%</progress>
+        </p>
+        <p>
+            <label for="szin">type="color":</label>
+            <input type="color" id="szin">
+        </p>
+        <p>
+            <label for="legordulo">select + option:</label>
+            <select id="legordulo">
+                <option disabled selected>valassz egyet</option>
+                <option>majom</option>
+                <option >banan</option>
+                <option>zsiraf</option>
+            </select>
+        </p>
+        <p>
+            <label for="textterulet">textarea:</label>
+            <textarea id="textterulet">hello</textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="nyomd meg">
+            <button type="submit">gomb</button>
+        </p>
+    </form>
+
+    <form>
+        <p>
+            <label for="ize">Checkbox:</label>
+            <input type="checkbox" id="ize">
+        </p>
+        <p>
+            Radio gomb:
+            <ul>
+                <li>
+                    <label>
+                        <input type="radio" name="ugyanaz">
+                        radio gomb labele!
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="radio" name="ugyanaz">
+                        radio gomb labele!
+                    </label>
+                </li>
+            </ul>
+        </p>
+    </form>
+</body>
+</html>

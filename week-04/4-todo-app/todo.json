@@ -1,0 +1,18 @@
+[
+    {
+        "completed": false,
+        "description": "Buy milk"
+    },
+    {
+        "completed": true,
+        "description": "Cook dinner"
+    },
+    {
+        "completed": true,
+        "description": "Buy Super Mario cart"
+    },
+    {
+        "completed": false,
+        "description": "Save the world"
+    }
+]

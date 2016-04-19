@@ -1,0 +1,16 @@
+{
+  "name": "spy-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.69.0",
+    "sinon": "^1.17.3",
+    "tape": "^4.5.1"
+  }
+}

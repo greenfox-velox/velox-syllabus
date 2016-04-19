@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+
+import argparse
+import readline
+
+from store import Store
+from menu import classic_menu
+
+def parse_args():
+  parser = argparse.ArgumentParser(description='Manage todos with ease.')
+  parser.add_argument('-f', '--file', help="path to file that stores the todo items", default="todo.txt")
+  parser.add_argument('--backend', help="choose the backend", choices=["json", "text"], default="text")
+  return parser.parse_args()
+
+def main():
+  args = parse_args()
+  store = Store(args.file, backend=args.backend).load()
+  menu = classic_menu()
+
+  while True:
+    print(menu.display())
+    choice = input("Choose an option: ")
+    result = menu.invoke(choice, store)
+
+    if not result.success:
+      print(result.text)
+    print()
+
+if __name__ == "__main__":
+  main()

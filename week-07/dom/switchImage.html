@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM Proba</title>
+</head>
+<body>
+
+  <button class="cicat">cicat kerek</button>
+  <button class="kutyat">kutyat kerek</button>
+
+  <img class="cicakutyakep" src="http://lorempixel.com/400/200/cats/">
+
+  <script>
+    var cicagomb = document.querySelector('.cicat');
+    var kutyagomb = document.querySelector('.kutyat');
+    var valtoskep = document.querySelector('.cicakutyakep');
+
+    kutyagomb.addEventListener('click', function () {
+      valtoskep.setAttribute('src', 'https://41.media.tumblr.com/84729c469ca431c8c80dad1cd4281205/tumblr_o08zo7SJan1tx21ogo1_540.jpg');
+    });
+
+    cicagomb.addEventListener('click', function () {
+      valtoskep.setAttribute('src', 'http://lorempixel.com/400/200/cats/');
+    });
+  </script>
+
+</body>
+</html>

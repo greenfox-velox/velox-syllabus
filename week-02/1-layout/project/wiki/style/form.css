@@ -1,0 +1,37 @@
+form {
+    width: 290px;
+    font-size: 14px;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+}
+
+input, button {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1;
+    padding: 8px 5px;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 5px;
+}
+
+::-webkit-input-placeholder {
+    font-style: italic;
+    line-height: 1.2;
+}
+
+button {
+    background: #00af89;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
