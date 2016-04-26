@@ -1,11 +1,32 @@
-# Monday - Introduction
+# Monday - Getting Started
 
-## Tools
+## Introduction - (9:00 Everybody)
+- Students
+- Staff
+
+## Basic info - (10:00 Everybody)
+- Motivation speech
+- House rules (Barbi)
+- Daily schedule
+- Weekly schedule
+- 4 Month schedule
+- Assignments
+- Exams
+- Student presentations
+- Mentoring
+- Sponsor companies
+
+## Tools 
 - Google Chrome: https://www.google.com/chrome
 - Atom: https://atom.io/
-- Github - https://github.com
-- Trello - https://trello.com
-- Slack - https://greenfox-2015-fall.slack.com/
+- Github: https://github.com/
+- Trello: https://trello.com/
+- Slack: https://greenfox-velox.slack.com/
+- Stackoverflow: http://stackoverflow.com/
+- MDN: https://developer.mozilla.org/en-US/
+
+## Assignment Checklist
+- 
 
 ## Workshop
 Build a simple medium article.
