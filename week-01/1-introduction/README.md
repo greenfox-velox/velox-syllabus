@@ -22,13 +22,36 @@
 - Google Chrome: https://www.google.com/chrome
 - Atom: https://atom.io/
 - Github: https://github.com/
-- Trello: https://trello.com/
+- Trello: https://trello.com/
 - Slack: https://greenfox-velox.slack.com/
 - Stackoverflow: http://stackoverflow.com/
 - MDN: https://developer.mozilla.org/en-US/
 
 ## Assignment Checklist
-- 
+- Bit, Byte, MegaBit, MegaByte, KiloByte
+- Internet
+- Protocol
+- ISP
+- IP (IPv4, IPv6, bits, layout)
+- IP address
+- DNS
+- Packet
+- Router
+- Fault tolerant, Redundancy
+- TCP
+- URL
+- HTTP
+- HTTP methods
+- HTML
+- HTTPS
+- Public Key
+- Private Key
+- SSL
+- Virus
+- Backdoor
+- Bot Net
+- DDos
+- Phising
 
 ## Workshop
 Build a simple medium article.
