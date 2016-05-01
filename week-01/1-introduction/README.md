@@ -15,6 +15,8 @@
 - Student presentations
 - Mentoring
 - Sponsor companies
+- End categories 
+- Review
 
 ## Tools 
 - Google Chrome: https://www.google.com/chrome
