@@ -10,12 +10,14 @@
 - Daily schedule
 - Weekly schedule
 - 4 Month schedule
+- Calendar
 - Assignments
 - Exams
 - Student presentations
 - Mentoring
 - Sponsor companies
-- End categories 
+- End categories
+- Groups
 - Review
 
 ## Tools 
