@@ -3,7 +3,7 @@ Learn how to use the tools.
 
 ## Project
 Create your own CV in HTML
-- optional: CV template to follow https://redpen.io/kx844f6396ac80acfa
+- optional: CV template to follow https://invis.io/X575YEGVU#/155416515_Greenfox-Anakins-Cv
 - other CV ideas for the brave: https://www.pinterest.com/hugabuga/cv-inspiration/
 
 ## Days
