@@ -1,9 +1,10 @@
 # syllabus-4-month
 
 ## Important links
-- trello board link __FIXME__
-- https://greenfox-velox.slack.com
-- https://github.com/greenfox-academy
+- [Trello](https://trello.com/gfvelox)
+- [Slack](https://greenfox-velox.slack.com)
+- [Github](https://github.com/greenfox-academy)
+- [Calendar](https://calendar.google.com/calendar/embed?src=greenfoxacademy.com_ehpmoefcl83hl1t1kgdgaio1cg%40group.calendar.google.com&ctz=Europe/Budapest)
 
 ## Schedule
 
