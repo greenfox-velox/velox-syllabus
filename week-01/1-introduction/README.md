@@ -5,20 +5,58 @@
 - Staff
 
 ## Basic info - (10:00 Everybody)
+- Welcome and House rules (Barbi)
 - Motivation speech
-- House rules (Barbi)
+  - Craftmanship
+  - Junior 14 / 15
+  - Intern 1 / 3
+  - Failed 1 :(
+  - 5 years experience: 400k Huf (Netto)
+- Soft Skill trainings (Kata)
 - Daily schedule
+  - Standup
+  - Assingment Review
+  - Workshop
+  - Library Time
 - Weekly schedule
-- 4 Month schedule
-- Calendar
-- Assignments
-- Exams
-- Student presentations
+  - 3-4 workshop days + (soft skill trainings)
+  - Friday Demo
+    - Mentor
+    - Sponsor
+- 4 Month schedule (17 weeks)
+  - Basics 
+    - 1 week Tools
+    - 1 weeks Sitebuilding (CSS + HTML)
+    - 4 weeks Basic Programming (Python)
+  - Orientation 
+    - 1 week Frontend
+    - 3 weeks Backend
+  - Projects
+    - 1 weeks Environment
+    - 6 weeks Project
+- Calendar + Communication
 - Mentoring
-- Sponsor companies
+  - 3 half time mentor
+  - 1 Assistant
+  - Volunteer mentors
+- Assignments
+  - Every day 1-2 hours of videos and articles
+- Exams (5)
+  - Sitebuild
+  - Python
+  - Frontend
+  - Backend
+  - Final
+- Student presentations
 - End categories
+  - Junior
+  - Intern
 - Groups
+  - 3 (6 people) groups in begining
+  - 6 (3 people) groups in project
 - Review
+  - Daily online code review
+  - Weekly Group face to face review
 
 ## Tools 
 - Google Chrome: https://www.google.com/chrome
