@@ -5,6 +5,7 @@
 - Staff
 
 ## Basic info - (10:00 Everybody)
+The rights reserved to change!
 - Welcome and House rules (Barbi)
 - Motivation speech
   - Craftmanship
