@@ -27,13 +27,13 @@ The rights reserved to change!
 - 4 Month schedule (17 weeks)
   - Basics
     - 1 week Tools
-    - 1 weeks Sitebuilding (CSS + HTML)
+    - 1 week Sitebuilding (CSS + HTML)
     - 4 weeks Basic Programming (Python)
   - Orientation
     - 1 week Frontend
     - 3 weeks Backend
   - Projects
-    - 1 weeks Environment
+    - 1 week Environment
     - 6 weeks Project
 - Calendar + Communication
 - Mentoring
