@@ -30,8 +30,8 @@ The rights reserved to change!
     - 1 weeks Sitebuilding (CSS + HTML)
     - 4 weeks Basic Programming (Python)
   - Orientation
-    - 1 week Frontend
-    - 3 weeks Backend
+    - 1 week Frontend (JavaScript)
+    - 3 weeks Backend (NodeJS)
   - Projects
     - 1 weeks Environment
     - 6 weeks Project
