@@ -49,103 +49,103 @@ If you have questions post it on the trello card as comments and on Wednesday mo
   - Open a terminal (with git ;) )
 
 #### Basic terminal operations
-    - Check the current working directory
-    - Check the files and directories in your working directory
-    - Create a Greenfox directory
-    - Change into the Greenfox directory
-    - Check the files and directories in your working directory
-    - Create an empty index.html file
-    - Create an images directory
-    - Create a css directory
-    - Change into the images directory
-    - Go back to the parent directory
-    - Create at least one file to every directory
+  - Check the current working directory
+  - Check the files and directories in your working directory
+  - Create a Greenfox directory
+  - Change into the Greenfox directory
+  - Check the files and directories in your working directory
+  - Create an empty index.html file
+  - Create an images directory
+  - Create a css directory
+  - Change into the images directory
+  - Go back to the parent directory
+  - Create at least one file to every directory
 
-    - Fork this git repository: https://github.com/greenfox-velox/velox-syllabus
-        - Visit the page
-        - Fork it!
-    - Clone your greenfox repository
-        - `git clone <repository>`
-    - Change into week-01/3-command-line/ directory
+  - Fork this git repository: https://github.com/greenfox-velox/velox-syllabus
+      - Visit the page
+      - Fork it!
+  - Clone your greenfox repository
+      - `git clone <repository>`
+  - Change into week-01/3-command-line/ directory
 
 #### Manipulations
-    - Change into the project directory
-    - List the detailed file and directory informations
-    - Copy the index.html into about.html
-    - Create a temp_images directory
-    - Copy 1.jpg and 2.jpg into temp_images directory
-    - Copy every jpg file into temp_images directory
-    - Move 6.jpg file from css into images directory
-    - Delete 7.jpg from css directory
-    - Navigate up one directory from project/css/ to project/
+  - Change into the project directory
+  - List the detailed file and directory informations
+  - Copy the index.html into about.html
+  - Create a temp_images directory
+  - Copy 1.jpg and 2.jpg into temp_images directory
+  - Copy every jpg file into temp_images directory
+  - Move 6.jpg file from css into images directory
+  - Delete 7.jpg from css directory
+  - Navigate up one directory from project/css/ to project/
 
 #### Redirections
-    - Echo a string to a file
-    - cat a file content and redirect the content to another file
-    - redirect a file content to cat command
-    - count the words in index.html
-    - cat a file content and pipe to wc
-    - sort a file
-    - sort a file and redirect the input to a file
-    - remove the duplicated lines from tasks.txt
-    - cat task.txt and filter basic tasks
-    - cat task.txt and filter out with -v the basic tasks
+  - Echo a string to a file
+  - cat a file content and redirect the content to another file
+  - redirect a file content to cat command
+  - count the words in index.html
+  - cat a file content and pipe to wc
+  - sort a file
+  - sort a file and redirect the input to a file
+  - remove the duplicated lines from tasks.txt
+  - cat task.txt and filter basic tasks
+  - cat task.txt and filter out with -v the basic tasks
 
 ### Git
 
 #### Basics
-    - setup your environtment
-    - `git config --global user.name "Your Name"`
-    - `git config --global user.email yourname@example.com`
+  - setup your environtment
+  - `git config --global user.name "Your Name"`
+  - `git config --global user.email yourname@example.com`
 
-    - create a repo on github
-        - under greenfox-velox organisation and the repo name should be your github username
-    - clone it on your system using command line
-    - your working directory should look like this
-        - home
-            - user (your username if you're using mac or linux, on windows its git env username)
-                - .hidden_directories...
-                - greenfox
-                    - githubusername (this should be the cloned repo, which is named after your github username, so the folder on your computer should be named that way as well)
-                        - week-01
-                            - day-1
-                                - contents created on your first day
-                            - day-3
-                - other_visible_directories
+  - create a repo on github
+      - under greenfox-velox organisation and the repo name should be your github username
+  - clone it on your system using command line
+  - your working directory should look like this
+      - home
+          - user (your username if you're using mac or linux, on windows its git env username)
+              - .hidden_directories...
+              - greenfox
+                  - githubusername (this should be the cloned repo, which is named after your github username, so the folder on your computer should be named that way as well)
+                      - week-01
+                          - day-1
+                              - contents created on your first day
+                          - day-3
+              - other_visible_directories
 
-    - change in to your githubusername directory
-    - see the changes
-    - set to staged
-    - commit with a nice understandable commit message
-        - it's nice if you can write commit messages to complete the following
-        - "If this commit is applied it will..."
-        - ...create my working directory for greenfox lessons
-        - ...create a new directory for task 1
-        - ...
-    - change in to your week-01/day-3 directory
-    - create 5 directory and 5 file with content
-    - see the changes
-    - add these files as staged files
-    - use git status to check
-    - commit it with commit message
-    - change the content of two file
-    - set to staged
-    - use git status
-    - commit it with commit message
-    - git pull
-    - git push -u origin my_branch
-    - check it on github
+  - change in to your githubusername directory
+  - see the changes
+  - set to staged
+  - commit with a nice understandable commit message
+      - it's nice if you can write commit messages to complete the following
+      - "If this commit is applied it will..."
+      - ...create my working directory for greenfox lessons
+      - ...create a new directory for task 1
+      - ...
+  - change in to your week-01/day-3 directory
+  - create 5 directory and 5 file with content
+  - see the changes
+  - add these files as staged files
+  - use git status to check
+  - commit it with commit message
+  - change the content of two file
+  - set to staged
+  - use git status
+  - commit it with commit message
+  - git pull
+  - git push -u origin my_branch
+  - check it on github
 
-    - change the content of two file
-    - use git status
-    - remove from staged git reset HEAD file
+  - change the content of two file
+  - use git status
+  - remove from staged git reset HEAD file
 
-    - change the content of two file
-    - use git status
-    - set to staged
-    - git diff --staged or --cached
-    - commit it
-    - check it on github
+  - change the content of two file
+  - use git status
+  - set to staged
+  - git diff --staged or --cached
+  - commit it
+  - check it on github
 
 #### Getting used to saving your work
   - Saving the Command Line edits
