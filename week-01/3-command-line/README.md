@@ -2,15 +2,21 @@
 
 ## Materials for this day
 Go through these tutorials:
+
 https://www.codecademy.com/learn/learn-the-command-line
 https://www.codecademy.com/learn/learn-git (only the first two needed: Git Basic Workflow and How to Backtrack)
+https://git-scm.com/book/en/v2/Git-Basics-Working-with-Remotes
+
+Install Git on your system, here are some links for that:
+https://github.com/greenfox-velox/velox-syllabus/tree/master/week-01/3-command-line#please-install-git-on-your-system
 
 If you have time and energy:
+
 Proceed with the other two chapter of git and try this
 https://try.github.io/
 as well ;)
 
-If you have questions post it here as comments and on Wednesday morning we'll talk about them! :)
+If you have questions post it on the trello card as comments and on Wednesday morning we'll talk about them! :)
 
 ## Please install git on your system:
   - Windows (portable is good as well, installed is better but make sure to have command line bash version):
