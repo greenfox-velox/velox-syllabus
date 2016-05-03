@@ -60,7 +60,7 @@ If you have questions post it on the trello card as comments and on Wednesday mo
   - Change into the images directory
   - Go back to the parent directory
   - Create at least one file to every directory
-
+---
   - Fork this git repository: https://github.com/greenfox-velox/velox-syllabus
       - Visit the page
       - Fork it!
@@ -97,7 +97,7 @@ If you have questions post it on the trello card as comments and on Wednesday mo
   - setup your environtment
   - `git config --global user.name "Your Name"`
   - `git config --global user.email yourname@example.com`
-
+---
   - create a repo on github
       - under greenfox-velox organisation and the repo name should be your github username
   - clone it on your system using command line
@@ -112,7 +112,7 @@ If you have questions post it on the trello card as comments and on Wednesday mo
                               - contents created on your first day
                           - day-3
               - other_visible_directories
-
+---
   - change in to your githubusername directory
   - see the changes
   - set to staged
@@ -135,11 +135,11 @@ If you have questions post it on the trello card as comments and on Wednesday mo
   - git pull
   - git push -u origin my_branch
   - check it on github
-
+---
   - change the content of two file
   - use git status
   - remove from staged git reset HEAD file
-
+---
   - change the content of two file
   - use git status
   - set to staged
