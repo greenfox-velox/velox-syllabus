@@ -1,14 +1,9 @@
-# Week 1 - Basics
+# Week 1 - Basics and Tools
 Learn how to use the tools.
 
-## Project
-Create your own CV in HTML
-- optional: CV template to follow https://invis.io/X575YEGVU#/155416515_Greenfox-Anakins-Cv
-- other CV ideas for the brave: https://www.pinterest.com/hugabuga/cv-inspiration/
-
 ## Days
-- Introduction
+- [Introduction](week-01/1-introduction)
 - Team building :)
-- Command-line, GIT
-- HTML, CSS
-- Project work
+- [Command-line, GIT](week-01/3-command-line)
+- [HTML, CSS](week-01/4-html-css)
+- [Create own CV](week-01/5-cv)

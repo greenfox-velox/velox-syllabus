@@ -8,32 +8,26 @@
 
 ## Schedule
 
-### 1st Month - Fundamentals
-Weeks:
-- Basics
-- Sitebuilding
-- Basics of Programming (Python)
-- Advanced Programming (Python)
-- Higher concepts in Programming
+### Fundamentals
 
 #### [1. Basics](week-01/)
-- Introduction
+- [Introduction](week-01/1-introduction)
 - Team building :)
-- Command-line, GIT
-- HTML, CSS
-- Create own CV
+- [Command-line, GIT](week-01/3-command-line)
+- [HTML, CSS](week-01/4-html-css)
+- [Create own CV](week-01/5-cv)
 
-#### [2. Sitebuilding webpages](week-02/)
+#### [2. Sitebuilding](week-02/)
 - Layout
 - Forms
 - Advanced CSS
 - Build a complex webpage (like Wikipedia article)
 
-### 2st Month - Orientation
+### Orientation
 Weeks:
 - Frontend
 - DevOps
 - Backend
 - End to end project
 
-### 3rd and 4th Month - Project and Teamwork
+### Project and Teamwork
