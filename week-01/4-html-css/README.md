@@ -24,6 +24,20 @@ Look after for what is the purpose of the: `<header>`, `<main>`, `<footer>`, `<s
 
 ### CSS
  - https://www.youtube.com/watch?v=4BEyFVufmM8 
+ - https://www.youtube.com/watch?v=iqTgros3FTc
+ - https://www.youtube.com/watch?v=1CqHws4WZ-M
+ - https://www.youtube.com/watch?v=f7c7bTrqXic
+ - https://www.youtube.com/watch?v=hrqo_GOwHHs
+ - https://www.youtube.com/watch?v=4oPvurjpcNw
+ - https://www.youtube.com/watch?v=ZMpaebQ3n6A
+ - https://www.youtube.com/watch?v=lZ6R_eYYxoE
+ - https://www.youtube.com/watch?v=3SOf8gZlBhI
+ - https://www.youtube.com/watch?v=84KE7OwMjYY
+ - https://www.youtube.com/watch?v=Qx-yzUBqatQ
+ - https://www.youtube.com/watch?v=ggo0di5L6sA
+ - https://www.youtube.com/watch?v=4YF-eaX4P0k
+ - https://www.youtube.com/watch?v=0Sm7MkZXT-8
+ - https://www.youtube.com/watch?v=sdn5p4kf91c
 
 ### Nice to have
  - https://developer.mozilla.org/en-US/docs/Web/HTTP
