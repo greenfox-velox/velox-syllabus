@@ -37,7 +37,7 @@ Learn how to use the tools.
    - Follow indentation guidelines
    - Write valid HTML and CSS code
    - Understanding Doctype
-   - Using tags: `<html>`, `<head>`, `<link>`,`<body>`, `<meta>`, `<title>`, `<h1>` - `<h6>`, `<p>`, `<a>`, `<img>`, `<article>`, `<strong>`, `<em>`, `<span>`, `<div>`, `<header>`, `<main>`, `<footer>`, `<section>`
+   - Using tags: `<html>`, `<head>`, `<link>`,`<body>`, `<meta>`, `<title>`, `<h1>` - `<h6>`, `<p>`, `<a>`, `<img>`, `<article>`, `<strong>`, `<em>`, `<span>`, `<div>`, `<header>`, `<main>`, `<footer>`, `<section>`, `<ul>`, `<ol>`, `<li>`, `<dd>`, `<dt>`
    - Understanding the semantic meaning of tags
    - Coloring backgrounds and fonts
    - Creating Paddings, Borders and Margins
