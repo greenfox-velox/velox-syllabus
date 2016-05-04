@@ -153,7 +153,7 @@ If you have questions post it on the trello card as comments and on Wednesday mo
   - use git status
   - commit it with commit message
   - git pull
-  - git push -u origin my_branch
+  - git push origin master
   - check it on github
 
 ---
