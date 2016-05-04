@@ -27,6 +27,24 @@ If you have questions post it on the trello card as comments and on Wednesday mo
   - Mac
     - http://git-scm.com/download/mac or `brew install git`
 
+## Assignment review
+- cd
+- . and ..
+- pwd
+- ls
+- touch
+- mkdir
+- cp
+- mv
+- rm
+- command options
+- < and > and >> and |
+- sort
+- uniq
+- grep
+- sed
+- git init, clone, add, rm, commit, push, pull, remote
+
 ## Tasks for this day
   - Leave your mouse for today, try not to touch it, unless its inevitable
   - Command Line
