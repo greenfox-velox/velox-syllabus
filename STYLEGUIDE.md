@@ -12,7 +12,10 @@ Currently covers:
 https://google.github.io/styleguide/htmlcssguide.xml
 
 Exceptions:
-- Optional Tags
+- HTML
+    - Optional Tags
+- CSS
+    - Declaration Order
 
 ## Python
 
