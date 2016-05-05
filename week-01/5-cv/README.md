@@ -37,6 +37,9 @@
  - https://www.youtube.com/watch?v=0CkSJVl_g00
  - https://www.youtube.com/watch?v=Sj7Hs94uZjE
 
+### Elements
+Look after what is the `<blockquote>`, `<hgroup>`, `<nav>`, `<q>`
+
 ## Assignment Review
  - Multiple elements selector
  - Combine selectors
