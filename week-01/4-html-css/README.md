@@ -59,10 +59,12 @@ Look after for what is the purpose of the: `<header>`, `<main>`, `<footer>`, `<s
 
 ## Workshop
 Build these simple layouts in HTML and CSS
-Please create separate diractory for each problem.
-Make sure you are using the simpliest selectors as possible.
-Try to avoid code duplication.
-Use paint, gimp, or something similar to figure out the sizes and colors.
+
+- Please create separate diractory for each problem.
+- Make sure you are using the simpliest selectors as possible.
+- Try to avoid code duplication.
+- Use paint, gimp, or something similar to figure out the sizes and colors.
+- You can use any lorem ipsum generator for the texts, it is not necessary to have the same
 
 ### Problem 1
 ![first problem](1.jpg)
