@@ -46,7 +46,7 @@ Look after for what is the purpose of the: `<header>`, `<main>`, `<footer>`, `<s
  - http://alistapart.com/article/grokwebstandards
 
 ## Assignment Review 
- - Purpose of: `<html>`, `<head>`, `<link>`, `<script>`,`<body>`, `<meta>`, `<title>`, `<h1>` - `<h6>`, `<p>`, `<a>`, `<img>`, `<article>`, `<strong>`, `<em>`, `<span>`, `<div>`, `<header>`, `<main>`, `<footer>`, `<section>`, `<ul>`, `<ol>`, `<li>`, `<dd>`, `<dt>`
+ - Purpose of: `<html>`, `<head>`, `<link>`, `<script>`,`<body>`, `<meta>`, `<title>`, `<h1>` - `<h6>`, `<p>`, `<a>`, `<img>`, `<article>`, `<aside>`, `<strong>`, `<em>`, `<span>`, `<div>`, `<header>`, `<main>`, `<footer>`, `<section>`, `<ul>`, `<ol>`, `<li>`, `<dd>`, `<dt>`, `<pre>`
  - class
  - id
  - Descendant selector
