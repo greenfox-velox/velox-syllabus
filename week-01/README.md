@@ -65,3 +65,5 @@ Learn how to use the tools.
    - Box model
    - Shorthandsweek-01/4-html-css/5.jpg
    - Avoid code duplication
+   - font styling
+   - inline/block element
