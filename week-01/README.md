@@ -37,7 +37,7 @@ Learn how to use the tools.
    - Follow indentation guidelines
    - Write valid HTML and CSS code
    - Understanding Doctype
-   - Using tags: `<html>`, `<head>`, `<link>`, `<script>`, `<body>`, `<meta>`, `<title>`, `<h1>` - `<h6>`, `<p>`, `<a>`, `<img>`, `<article>`, `<strong>`, `<em>`, `<span>`, `<div>`, `<header>`, `<main>`, `<footer>`, `<section>`, `<ul>`, `<ol>`, `<li>`, `<dd>`, `<dt>`
+   - Using tags: `<html>`, `<head>`, `<link>`, `<script>`, `<body>`, `<meta>`, `<title>`, `<h1>` - `<h6>`, `<p>`, `<a>`, `<img>`, `<article>`, `<strong>`, `<em>`, `<span>`, `<div>`, `<header>`, `<main>`, `<aside>`,`<footer>`, `<section>`, `<ul>`, `<ol>`, `<li>`, `<dd>`, `<dt>`
    - Understanding the semantic meaning of tags
    - Coloring backgrounds and fonts
    - Creating Paddings, Borders and Margins
@@ -63,5 +63,5 @@ Learn how to use the tools.
    - Important
    - Specificity
    - Box model
-   - Shorthands
+   - Shorthandsweek-01/4-html-css/5.jpg
    - Avoid code duplication

@@ -84,3 +84,19 @@ Font size: 30 pixels
 
 ### Problem 5
 ![fifth problem](5.jpg)
+
+### Problem 6
+![sixth problem](6.jpg)
+
+Font size: 18 pixels
+
+### Problem 7
+![seventh problem](7.jpg)
+
+Font size: 18 pixels
+
+### Problem 8
+![eighth problem](8.jpg)
+
+Font size: 18 pixels
+Duck: ![duck](duck.png)
