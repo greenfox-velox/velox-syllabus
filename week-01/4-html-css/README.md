@@ -60,8 +60,20 @@ Look after for what is the purpose of the: `<header>`, `<main>`, `<footer>`, `<s
 ## Workshop
 Build these simple layouts in HTML and CSS
 Please create separate diractory for each problem.
+Make sure you are using the simpliest selectors as possible.
+Try to avoid code duplication.
 
 ### 1
 ![first problem](1.jpg)
+
+Font size: 30 pixels
+
+### 2
+![second problem](2.jpg)
+
+Font size: 30 pixels
+
+### 3
+![third problem](3.jpg)
 
 Font size: 30 pixels
