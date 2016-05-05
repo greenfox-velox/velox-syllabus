@@ -44,3 +44,24 @@ Look after for what is the purpose of the: `<header>`, `<main>`, `<footer>`, `<s
  - https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/HTML_basics
  - https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/CSS_basics
  - http://alistapart.com/article/grokwebstandards
+
+## Assignment Review 
+ - Purpose of: `<html>`, `<head>`, `<link>`, `<script>`,`<body>`, `<meta>`, `<title>`, `<h1>` - `<h6>`, `<p>`, `<a>`, `<img>`, `<article>`, `<strong>`, `<em>`, `<span>`, `<div>`, `<header>`, `<main>`, `<footer>`, `<section>`, `<ul>`, `<ol>`, `<li>`, `<dd>`, `<dt>`
+ - class
+ - id
+ - Descendant selector
+ - Conflict 
+ - Inheritance 
+ - Specificity
+ - Box model
+ - Shorthand
+ - Default browser styles
+
+## Workshop
+Build these simple layouts in HTML and CSS
+Please create separate diractory for each problem.
+
+### 1
+![first problem](1.jpg)
+
+Font size: 30 pixels
