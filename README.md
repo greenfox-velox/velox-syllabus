@@ -6,6 +6,7 @@
 - [Github - Greenfox](https://github.com/greenfox-academy)
 - [Github - Velox](https://github.com/greenfox-velox)
 - [Calendar](https://calendar.google.com/calendar/embed?src=greenfoxacademy.com_ehpmoefcl83hl1t1kgdgaio1cg%40group.calendar.google.com&ctz=Europe/Budapest)
+- [Styleguide - Velox](STYLEGUIDE.md)
 
 ## Schedule
 
