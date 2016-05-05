@@ -37,11 +37,31 @@ Learn how to use the tools.
    - Follow indentation guidelines
    - Write valid HTML and CSS code
    - Understanding Doctype
-   - Using tags: `<html>`, `<head>`, `<link>`,`<body>`, `<meta>`, `<title>`, `<h1>` - `<h6>`, `<p>`, `<a>`, `<img>`, `<article>`, `<strong>`, `<em>`, `<span>`, `<div>`, `<header>`, `<main>`, `<footer>`, `<section>`, `<ul>`, `<ol>`, `<li>`, `<dd>`, `<dt>`
+   - Using tags: `<html>`, `<head>`, `<link>`, `<script>`, `<body>`, `<meta>`, `<title>`, `<h1>` - `<h6>`, `<p>`, `<a>`, `<img>`, `<article>`, `<strong>`, `<em>`, `<span>`, `<div>`, `<header>`, `<main>`, `<footer>`, `<section>`, `<ul>`, `<ol>`, `<li>`, `<dd>`, `<dt>`
    - Understanding the semantic meaning of tags
    - Coloring backgrounds and fonts
    - Creating Paddings, Borders and Margins
    - Specify sizes
-   - Using bacground images
+   - Using background images
    - Using google web fonts
    - Understanding Color codes 
+   - Understanding class and id
+   - Default browser styles
+   - Select any element
+     - Descendant
+     - Multiple elements
+     - Combine
+     - Universal
+     - Attribute
+     - Child
+     - Adjacent
+     - Pseudo
+     - first-child, last-child, nth-child, nth-type
+   - Understand how css resolves conflic
+   - Cascade
+   - Inheritance
+   - Important
+   - Specificity
+   - Box model
+   - Shorthands
+   - Avoid code duplication
