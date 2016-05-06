@@ -58,6 +58,7 @@ Look after what is the `<blockquote>`, `<hgroup>`, `<nav>`, `<q>`
  - block element
  - inline element
  - inline-block
+ - comments
 
  
 ## Project work
