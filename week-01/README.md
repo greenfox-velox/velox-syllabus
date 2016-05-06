@@ -26,6 +26,14 @@ Learn how to use the tools.
    - Modify the content of a file
    - Basic usage of: `pwd`, `mkdir`, `rmdir`, `ls`, `cd`, `cp`, `mv`, `rm`, `touch`, `grep`, `echo`, `cat`, `sort`, `uniq`, `wc`
    - Understanding stdout, stderr and redirection with | and >
+ - Git
+   - Understandig what is a repository for
+   - Use sta stages of the git workflow:
+     - add / remove 
+     - commit
+     - push
+   - Using cli git client
+   - Using GitHub and it's collaborative features
  - Developer Tools:
    - View a page's source
    - Inspect Element
