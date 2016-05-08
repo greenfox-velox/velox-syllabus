@@ -71,7 +71,7 @@ Learn how to use the tools.
    - Important
    - Specificity
    - Box model
-   - Shorthandsweek-01/4-html-css/5.jpg
+   - Shorthands
    - Avoid code duplication
    - font styling
    - inline/block element
