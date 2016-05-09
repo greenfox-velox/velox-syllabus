@@ -64,7 +64,21 @@ Build these simple layouts in HTML and CSS
 
  - You can reuse the 1st problem as background
 
+### Project
+ - Open the page: [https://en.wikipedia.org/wiki/Margaret_Hamilton_(scientist)](https://en.wikipedia.org/wiki/Margaret_Hamilton_(scientist))
+ - Try to resize the browser window
+ - Create a box for the:
+   - Header
+   - Main content
+   - Sidebar
+   - Footer
+ - It should resize and work the same way as the original (Expect the resize of the sidebar, it can remain the same size)
 
-
-
+#### Nice to have:
+ - Add the bigger components as boxes:
+   - Logo
+   - Navigations
+   - Search bar
+   - Infobox in the content
+   - Footer links
  
