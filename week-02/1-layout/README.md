@@ -59,6 +59,11 @@ Build these simple layouts in HTML and CSS
  - It should be wall to wall with fluid width.
  - The sidebars should have fixed with.
 
+### Problem 4
+![fourth problem](4.jpg)
+
+ - You can reuse the 1st problem as background
+
 
 
 
