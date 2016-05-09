@@ -47,5 +47,19 @@ Build these simple layouts in HTML and CSS
 ### Problem 1
 ![first problem](1.jpg)
 
+### Problem 2
+![second problem](2.jpg)
+
+ - It should be centered in the page.
+ - It should have fixed width.
+
+### Problem 3
+![third problem](2.jpg)
+
+ - It should be wall to wall with fluid width.
+ - The sidebars should have fixed with.
+
+
+
 
  
