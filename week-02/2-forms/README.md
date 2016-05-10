@@ -20,6 +20,7 @@
    - color
    - range
  - `value` attribute 
+ - `name` attribute
  - `<textarea>` element
  - `<label>` element
    - `for` attribute
