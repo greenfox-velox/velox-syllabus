@@ -29,3 +29,6 @@ print(output) # it prints: ['dad', 'dood', 'eve']
 - Class | Object Oriented Programming
 - Exceptions | Testing
 - Practice and Kata
+
+## Demo description
+Creating simple algorithms as searching palindromes in a string, to practice variables, conditionals, loops and the other basic elements of a programming languages in python

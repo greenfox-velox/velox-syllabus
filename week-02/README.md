@@ -1,13 +1,19 @@
 # Week 2 - Sitebuilding
-How to create webpages
+How to create webpages.
+
+## Days
+- [Layout](1-layout)
+- [Forms](2-forms)
+- [Advanced CSS](3-advanced-css)
+- [Project 1](4-project)
+- [Project 2](5-project)
+ 
+## Expected skills till end of the week
+ - Ab
 
 ## Project
 Build two Wikipedia pages in HTML + CSS
  - https://en.wikipedia.org/wiki/Margaret_Hamilton_(scientist)
- - https://en.wikipedia.org/w/index.php?title=Special:UserLogin&returnto=Margaret+Hamilton+%28scientist%29&type=signup
 
-## Days
-- Layout
-- Forms
-- Advanced CSS
-- Build assignment
+## Demo description
+Building a Wikipedia article's frontend, to practice basic layout, styling and semantic structure in HTML and CSS

@@ -8,8 +8,6 @@ Learn how to use the tools.
  - [HTML, CSS](4-html-css)
  - [Create own CV](5-cv)
 
-
-
 ## Expected skills till end of the week
  - Create, open, modify files using the editor
  - Internet:
@@ -75,3 +73,6 @@ Learn how to use the tools.
    - Avoid code duplication
    - font styling
    - inline/block element
+
+## Demo description
+Understanding tools like git, command line, editor, kanban board, etc, building a simple HTML CV with CSS.
