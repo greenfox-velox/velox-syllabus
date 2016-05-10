@@ -17,6 +17,21 @@ Exceptions:
 - CSS
     - Declaration Order
 
+Additions:
+- CSS
+    - Use `::` instead of `:` on pseudo element selectors. Eg.:
+    ```css
+    /* Good */
+    .my-class::after {
+      content: "apple";
+    }
+
+    /* Bad */
+    .my-class:after {
+      content: "apple";
+    }
+    ```
+
 ## Python
 
 https://google.github.io/styleguide/pyguide.html
