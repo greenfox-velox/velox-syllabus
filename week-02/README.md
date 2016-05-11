@@ -26,14 +26,14 @@ How to create webpages.
    - `<form>` element and it's attributes
    - `<label>`, `<textarea>` 
    - form validation
- - Colors and styling
+ - Colors and styling:
    - colors
    - opacity
    - gradients
    - box-shadow
    - outline
    - transition
- - Writing clean CSS file 
+ - Write clean CSS file 
  - Write semantic HTML file (SEO)
 
 ## Project
