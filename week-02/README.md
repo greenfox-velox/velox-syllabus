@@ -9,7 +9,32 @@ How to create webpages.
 - [Project 2](5-project)
  
 ## Expected skills till end of the week
- - Ab
+ - Layout elements in a build:
+   - box-sizing 
+   - display
+   - float
+   - clear
+   - flex-box
+   - z-index
+   - position
+   - overflow
+ - Understand pseudo elements
+ - Form:
+   - `<input>` elements 
+   - `type` attribute
+   - `name` attribute
+   - `<form>` element and it's attributes
+   - `<label>`, `<textarea>` 
+   - form validation
+ - Colors and styling
+   - colors
+   - opacity
+   - gradients
+   - box-shadow
+   - outline
+   - transition
+ - Writing clean CSS file 
+ - Write semantic HTML file (SEO)
 
 ## Project
 Build two Wikipedia pages in HTML + CSS
