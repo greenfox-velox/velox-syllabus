@@ -17,3 +17,18 @@
  - outline
  - `<table>` element
 
+## Workshop
+Build the [Margaret Hamilton Wikipedia page](https://en.wikipedia.org/wiki/Margaret_Hamilton_(scientist))
+ - Open the page
+ - Try to resize the browser window
+ - Create a box for the:
+   - Header
+   - Main content
+   - Sidebar
+   - Footer
+ - It should resize and work the same way as the original (Expect the resize of the sidebar, it can remain the same size)
+ - Figure out the bigger content component blocks in the Header, Main content, Sidebar and Footer, like: Logo, Navigations, Search bar, Infobox in the content, Footer links
+ - Create boxes for these content as well and roughly do the positioning
+ - Fill these components with the right content
+ - Start to style these components (main colors, backgrounds, paddings, borders and margins first)
+ 
