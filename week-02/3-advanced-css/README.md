@@ -58,4 +58,10 @@ Only start to work on these details if you are not ready with the others. These 
 
 #### Gradient border under sidebar boxes
 Normal border is enough
+
 ![border](8.jpg)
+
+#### Gradient border between top menu
+Normal border is enough
+
+![top-border](9.jpg)
