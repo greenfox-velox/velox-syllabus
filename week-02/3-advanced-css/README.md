@@ -32,3 +32,30 @@ Build the [Margaret Hamilton Wikipedia page](https://en.wikipedia.org/wiki/Marga
  - Fill these components with the right content
  - Start to style these components (main colors, backgrounds, paddings, borders and margins first)
  
+### The unnecessary details
+Only start to work on these details if you are not ready with the others. These are not mandatory!
+
+#### User icon
+![suer icon](1.jpg)
+
+#### Gear icon
+![gear icon](2.jpg)
+
+#### Edit links
+![edit links](3.jpg)
+
+#### Edit on headings
+![edit](4.jpg)
+
+#### Full screen icon on images
+![fullscreen](5.jpg)
+
+#### Referneces
+![references](6.jpg)
+
+#### Bottom table
+![table](7.jpg)
+
+#### Gradient border under sidebar boxes
+Normal border is enough
+![border](8.jpg)
