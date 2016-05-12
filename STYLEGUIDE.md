@@ -11,11 +11,15 @@ Currently covers:
 
 https://google.github.io/styleguide/htmlcssguide.xml
 
-Exceptions:
+#### Exceptions
 - HTML
     - Optional Tags
 - CSS
     - Declaration Order
+
+#### Notes
+- Self closing slashes `/` for `void` HTML tags are optional in HTML5, be consistent, either use it in every `void` tag or in none
+    - list of `void` tags in HTML5: https://www.w3.org/TR/html-markup/syntax.html#syntax-elements
 
 ## Python
 
