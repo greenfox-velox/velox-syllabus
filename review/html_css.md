@@ -17,7 +17,8 @@ There should be exactly 1 space between the selector and the brace.
 See https://google.github.io/styleguide/htmlcssguide.xml?showone=Declaration_Block_Separation#Declaration_Block_Separation
 
 ### Layout workshop, fixed page layout excercise
-#### Consider the responsibilites of the boxes semantically, eg:
+#### Consider the responsibilites of the boxes semanticall
  - Use semantic elements, instead of `<div>`-s
  - The black box is content of the red box, it should be nested in it
+#### Don't overuse position
  - Try to solve the problem without using position (expect the black box), rather try to use flex-box or float
