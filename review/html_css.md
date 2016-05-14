@@ -13,6 +13,37 @@ There should be exactly 1 space between the selector and the brace.
 ```
 See https://google.github.io/styleguide/htmlcssguide.xml?showone=Declaration_Block_Separation#Declaration_Block_Separation
 
+### Try to avoid CSS style property duplication
+Use combined selectors, or a new class for the similarities.
+```css
+/* Bad */
+.sidebar-left {
+  width: 100px;
+  height: 100px;
+  background: orange;
+}
+
+.sidebar-right {
+  width: 100px;
+  height: 100px;
+  background: purple;
+}
+
+/* Good */
+.sidebar-left, .sidebar-right {
+  width: 100px;
+  height: 100px;
+}
+
+.sidebar-left {
+  background: orange;
+}
+
+.sidebar-right {
+  background: purple;
+}
+```
+
 ### Layout workshop, fixed page layout excercise
 #### Consider the responsibilites of the boxes semanticall
  - Use semantic elements, instead of `<div>`-s
@@ -21,6 +52,3 @@ See https://google.github.io/styleguide/htmlcssguide.xml?showone=Declaration_Blo
 #### Don't overuse position
  - Try to solve the problem without using position (expect the black box), rather try to use flex-box or float
 
-#### Try to avoid style property duplication, use combined selectors
- - The sidebars has the same width
- - The header and the footer has the same height
