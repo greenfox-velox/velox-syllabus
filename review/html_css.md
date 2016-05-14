@@ -1,7 +1,4 @@
 # Review
-## HTML
-
-## CSS
 
 ### Spaces between CSS selectors and opening braces
 There should be exactly 1 space between the selector and the brace.
@@ -23,3 +20,7 @@ See https://google.github.io/styleguide/htmlcssguide.xml?showone=Declaration_Blo
 
 #### Don't overuse position
  - Try to solve the problem without using position (expect the black box), rather try to use flex-box or float
+
+#### Try to avoid style property duplication, use combined selectors
+ - The sidebars has the same width
+ - The header and the footer has the same height
