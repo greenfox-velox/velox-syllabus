@@ -23,6 +23,10 @@ See https://google.github.io/styleguide/htmlcssguide.xml?showone=Declaration_Blo
 <img src="duck.png" alt="duck">
 ```
 
+### Try to avoid using HR and BR element
+ - Use `<hr>` tag only for page break. For visual lines usually use borders.
+ - Use `<br>` tag only for line break in inline text. For separating elements use block level wrappers.
+
 ### Try to avoid CSS style property duplication
 Use combined selectors, or a new class for the similarities.
 ```css
