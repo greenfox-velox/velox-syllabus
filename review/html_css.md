@@ -67,6 +67,15 @@ span {
 }
 ```
 
+## Use the shortest possible shorthands
+```css
+/* Bad */
+margin: 5px 20px 5px 20px;
+
+/* Good */
+margin: 5px 20px;
+```
+
 ## Workshop excercises
 ### Layout workshop, fixed page layout excercise
 #### Consider the responsibilites of the boxes semantically
