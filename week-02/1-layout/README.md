@@ -53,6 +53,13 @@ Build these simple layouts in HTML and CSS
 
  - It should be centered in the page.
  - It should have fixed width.
+ - Consider the roles of the boxes:
+   - Aqua (light blue): Header
+   - Orange: Left sidebar (not main content)
+   - Red: Main Content
+   - Black: Fixed content on the bottom right of the Main content
+   - Purple: Right sidebar (not main content)
+   - Blue: Footer
 
 ### Problem 3
 ![third problem](2.jpg)
