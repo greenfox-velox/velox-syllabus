@@ -59,6 +59,14 @@ span {
 }
 ```
 
+## Don't commit empty selectors
+```css
+/* Bad */
+.something {
+
+}
+```
+
 ## Workshop excercises
 ### Layout workshop, fixed page layout excercise
 #### Consider the responsibilites of the boxes semantically
