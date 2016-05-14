@@ -20,5 +20,6 @@ See https://google.github.io/styleguide/htmlcssguide.xml?showone=Declaration_Blo
 #### Consider the responsibilites of the boxes semanticall
  - Use semantic elements, instead of `<div>`-s
  - The black box is content of the red box, it should be nested in it
+
 #### Don't overuse position
  - Try to solve the problem without using position (expect the black box), rather try to use flex-box or float
