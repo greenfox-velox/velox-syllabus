@@ -45,6 +45,20 @@ Use combined selectors, or a new class for the similarities.
 }
 ```
 
+## Don't style general elements
+ - Don't style general elements like `<div>`, `<span>` please use classes instead
+```css
+/* Bad */
+span {
+  color: red;
+}
+
+/* Good */
+.alert {
+  color: red;
+}
+```
+
 ## Workshop excercises
 ### Layout workshop, fixed page layout excercise
 #### Consider the responsibilites of the boxes semantically
@@ -57,3 +71,5 @@ Use combined selectors, or a new class for the similarities.
 ### Layout workshop, modal layout exercise
 #### Consider the responsibilites of the sections in the modal semantically
  - Use semantic elements, instead of `<div>`-s or `<p>`-s
+
+
