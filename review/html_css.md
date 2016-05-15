@@ -80,6 +80,32 @@ span {
 }
 ```
 
+### UL should only have LIs as children
+Please don't use any element as children to `<ul>`-s that is not `<li>`
+```html
+<!-- Bad -->
+<ul>
+  <li>Apple</li>
+  <li>Pear</li>
+  <ul>
+    <li>Peach</li>
+    <li>Melon</li>
+  </ul>
+</ul>
+
+<!-- Good -->
+<ul>
+  <li>Apple</li>
+  <li>Pear</li>
+  <li>
+    <ul>
+      <li>Peach</li>
+      <li>Melon</li>
+    </ul>
+  </li>
+</ul>
+```
+
 ### Use the shortest possible shorthands
 ```css
 /* Bad */
