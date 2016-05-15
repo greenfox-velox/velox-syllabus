@@ -58,7 +58,7 @@ Use combined selectors, or a new class for the similarities.
 }
 ```
 
-## Don't style general elements
+### Don't style general elements
  - Don't style general elements like `<div>`, `<span>` please use classes instead
 ```css
 /* Bad */
@@ -72,7 +72,7 @@ span {
 }
 ```
 
-## Don't commit empty selectors
+### Don't commit empty selectors
 ```css
 /* Bad */
 .something {
@@ -80,13 +80,23 @@ span {
 }
 ```
 
-## Use the shortest possible shorthands
+### Use the shortest possible shorthands
 ```css
 /* Bad */
 margin: 5px 20px 5px 20px;
 
 /* Good */
 margin: 5px 20px;
+```
+### Don't use the same id for multiple elements
+```html
+<!-- Bad -->
+<input type="radio" id="gender">
+<input type="radio" id="gender">
+
+<!-- Good -->
+<input type="radio" id="female">
+<input type="radio" id="male">
 ```
 
 ## Workshop excercises
