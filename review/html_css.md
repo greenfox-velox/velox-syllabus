@@ -87,7 +87,14 @@ margin: 5px 20px 5px 20px;
 
 /* Good */
 margin: 5px 20px;
+
+/* Bad */
+padding: 10px 5px 8px 5px;
+
+/* Good */
+padding: 10px 5px 8px;
 ```
+
 ### Don't use the same id for multiple elements
 ```html
 <!-- Bad -->
