@@ -99,6 +99,22 @@ margin: 5px 20px;
 <input type="radio" id="male">
 ```
 
+### Use hyphen case for ids and classes
+Use hyphen case instead of underscore or CamelCase, for ids and classes
+```css
+/* Bad */
+.myClass {}
+
+/* Bad */
+.my_class
+
+/* Good */
+.my-class
+```
+
+
+
+
 ## Workshop excercises
 ### Layout workshop, fixed page layout excercise
 #### Consider the responsibilites of the boxes semantically
