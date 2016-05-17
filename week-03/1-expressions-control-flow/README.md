@@ -201,6 +201,11 @@ while a < 5:
 ```python
 for i in [1, 2, 3, 4]:
     print(i)
+
+for i in range(0, 4):
+    print(i)
 ```
 
 #### Excercises
+Please redo the While excercises with for
+ - [38.py](workshop/38.py)
