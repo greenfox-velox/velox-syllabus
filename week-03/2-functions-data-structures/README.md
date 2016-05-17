@@ -3,15 +3,22 @@
 ## Before lesson materials
 
 Mandatory:
-
-* [General introduction to functions][1]
-* [Introduction to Python built-in data structures][2]
-* [Codecademy course on Python functions][4]
-* [Codecademy course on Python lists and dictionaries][5]
+ - https://www.youtube.com/watch?v=j2xhtI0WTew
+ - https://www.youtube.com/watch?v=xRIzPZlei9I
+ - https://www.youtube.com/watch?v=mwr1AtpLMpI
+ - https://www.youtube.com/watch?v=f3TVuuhe-fY
+ - https://www.youtube.com/watch?v=DASOXeFFkCg
+ - https://www.youtube.com/watch?v=QSTo9F8E6GE
+ - https://www.youtube.com/watch?v=DJ2HSCT6Z8w
+ - https://www.youtube.com/watch?v=j2xhtI0WTew
+ - https://www.youtube.com/watch?v=BSNFRKG1MfE
 
 Optional:
-
-* [Hands-on Python Tutorial: Defining Functions of your Own][3]
+ - [General introduction to functions][1]
+ - [Introduction to Python built-in data structures][2]
+ - [Codecademy course on Python functions][4]
+ - [Codecademy course on Python lists and dictionaries][5]
+ - [Hands-on Python Tutorial: Defining Functions of your Own][3]
 
 ## Tasks
 
