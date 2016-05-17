@@ -179,3 +179,28 @@ else:
  - [29.py](workshop/29.py)
  - [30.py](workshop/30.py)
 
+
+### While
+```python
+a = 0
+while a < 5:
+    a += 1
+    print(a)
+```
+
+#### Excercises
+ - [31.py](workshop/31.py)
+ - [32.py](workshop/32.py)
+ - [33.py](workshop/33.py)
+ - [34.py](workshop/34.py)
+ - [35.py](workshop/35.py)
+ - [36.py](workshop/36.py)
+ - [37.py](workshop/37.py)
+ 
+### For
+```python
+for i in [1, 2, 3, 4]:
+    print(i)
+```
+
+#### Excercises
