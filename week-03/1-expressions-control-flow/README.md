@@ -209,3 +209,29 @@ for i in range(0, 4):
 #### Excercises
 Please redo the While excercises with for
  - [38.py](workshop/38.py)
+
+### break & continue
+```python
+numbers = [5, 7, 9, 11, 13, 12]
+
+i = 0
+while i < len(numbers):
+    if numbers[i] % 3 != 0:
+        pass
+    else:
+        print(numbers[i])
+        break
+    i += 1
+
+
+
+numbers = [5, 7, 9, 11, 13, 12]
+
+i = 0
+while i < len(numbers):
+    if numbers[i] % 3 != 0:
+        continue
+    else:
+        print(numbers[i])
+    i += 1
+```
