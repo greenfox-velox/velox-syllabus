@@ -125,7 +125,39 @@ arr[1:3]
 [] is []
 ```
 
+#### Excercises
+ - [16.py](workshop/16.py)
+ - [17.py](workshop/17.py)
+ - [18.py](workshop/18.py)
+ - [19.py](workshop/19.py)
+ - [20.py](workshop/20.py)
+
 ### None
 ```python
 None
+```
+
+### If
+```python
+if a == 2:
+    print(a)
+
+
+if a == 2:
+    print("two")
+else:
+    print("other")
+
+
+if a == 1:
+    print("one")
+elif x == 2:
+    print("two")
+else:
+    print("a lot")
+
+if a == 1:
+    pass
+else:
+    print("not one")
 ```
