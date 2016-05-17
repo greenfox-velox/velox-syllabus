@@ -26,6 +26,11 @@ https://www.python.org/downloads/
 
 ## Workshop
 
+### Hello World
+```python
+print('Hello world')
+```
+
 ### Numbers
 ```pyhton
 1
@@ -161,3 +166,16 @@ if a == 1:
 else:
     print("not one")
 ```
+
+#### Excercises
+ - [21.py](workshop/21.py)
+ - [22.py](workshop/22.py)
+ - [23.py](workshop/23.py)
+ - [24.py](workshop/24.py)
+ - [25.py](workshop/25.py)
+ - [26.py](workshop/26.py)
+ - [27.py](workshop/27.py)
+ - [28.py](workshop/28.py)
+ - [29.py](workshop/29.py)
+ - [30.py](workshop/30.py)
+
