@@ -4,6 +4,13 @@
 
 Mandatory:
 
+* https://www.youtube.com/watch?v=POQIIKb1BZA
+* https://www.youtube.com/watch?v=G8kS24CtfoI
+* https://www.youtube.com/watch?v=qSDiHI1kP98
+* https://www.youtube.com/watch?v=oROcVrgz91Y 
+
+Advised:
+
 * [Hands-on Python Tutorial: Object Orientation (only section 2.1.1)][1]
 * [Codecademy course - Introduction to Classes][2]
 
