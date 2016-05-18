@@ -47,6 +47,7 @@ If there is time left:
 
 * Graphs
 * Figure out how to build a binary tree
+* [PRO leage](PRO.md)
 
 [1]: http://www.cs.utah.edu/~germain/PPS/Topics/functions.html
 [2]: http://pymbook.readthedocs.org/en/latest/datastructure.html
