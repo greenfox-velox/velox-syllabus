@@ -1,17 +1,17 @@
-def greetFox():
+def greet_fox():
   print("Hello Green Fox!")
 
-greetFox()
-greetFox()
+greet_fox()
+greet_fox()
 
 
 # function arguments
 
-def greetByName(name):
+def greet_by_name(name):
   print("Szia,", name)
 
-greetByName("Tojas")
-greetByName("Barbi")
+greet_by_name("Tojas")
+greet_by_name("Barbi")
 
 
 # default values for function arguments
@@ -27,9 +27,9 @@ greet(name="Mindenki")
 
 # function return values
 
-def makeGreen(name):
-  newName = "Zold " + name
-  return newName
+def make_green(name):
+  new_name = "Zold " + name
+  return new_name
 
-name = makeGreen("Tojas")
-greetByName(name)
+name = make_green("Tojas")
+greet_by_name(name)
