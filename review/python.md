@@ -79,3 +79,13 @@ class Pirate(object):
     self.consumed_rum = drunken_rum # no way, you shouldn't drink while pregnant
 ```
 _The takeaway from the story is you need to decide what attributes can be set when creating a new object and what have default values_
+
+### Using spaces around operators
+Either use on both sides either none of the sides. In the styleguide there are more rules about where to use spaces around operators
+```python
+# Good
+variable = 5 / 6
+
+# Bad
+variable= 5 /6
+```
