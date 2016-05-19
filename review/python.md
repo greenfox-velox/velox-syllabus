@@ -63,3 +63,19 @@ for i in list:
   if something:
       not_consistant
 ```
+
+### Drunk born Pirates
+There shouldn't be a param for setting the pirates' `rum_num` in the constructor.
+Pirates are not created or born to have drunk already something. Every new born pirate is an alcohol virgin. They need to `drink_rum()` to actually increase the number of rums they did consume.
+```python
+# Good
+class Pirate(object):
+  def __init__(self):
+    self.consumed_rum = 0 # every new born pirate has consumed this amount, there's no way to create a pirate that has already drunk some
+
+# Bad
+class Pirate(object):
+  def __init__(self, drunken_rum):
+    self.consumed_rum = drunken_rum # no way, you shouldn't drink while pregnant
+```
+_The takeaway from the story is you need to decide what attributes can be set when creating a new object and what have default values_
