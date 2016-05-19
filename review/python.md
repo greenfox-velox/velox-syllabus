@@ -11,7 +11,7 @@ b = True
 # Good
 if b:
   ...
-while !b:
+while not b:
   ...
 
 # Bad
