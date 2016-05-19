@@ -45,10 +45,14 @@ By default the styleguide says indentation should be 4 spaces. Our religion is 2
 # Good
 def something():
   statement
+  if another:
+    other_statement
 
 # Good
 if something:
     statement
+    while another:
+        other_statement
 
 # Bad
 def another():
