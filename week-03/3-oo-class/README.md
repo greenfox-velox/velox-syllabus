@@ -31,6 +31,9 @@ print(get_circumference(rectangle2))
 
 ```python
 class Rectangle():
+  a = 0
+  b = 0
+  
   def __init__(self, a, b):
     self.a = a
     self.b = b
@@ -44,11 +47,11 @@ print(rect1.get_circumference())
 print(rect2.get_circumference())
 
 ```
-[1.py](1.py)
-[2.py](2.py)
-[3.py](3.py)
-[4.py](4.py)
-[5.py](5.py)
+[01.py](01.py)
+[02.py](02.py)
+[03.py](03.py)
+[04.py](04.py)
+[05.py](05.py)
 
 #### List functions
 
@@ -58,22 +61,19 @@ my_list.append(4)
 my_list.pop()
 ```
 
-[6.py](6.py)
-[7.py](7.py)
+[06.py](06.py)
+[07.py](07.py)
 
 ### Inheritance
 ```python
 class Base():
-  def __init__(self, a):
-    self.a = a
- 
+  a = 0
+
   def printA(self):
     print("a is:" + str(self.a))
 
 class Child(Base):
-  def __init__(self, a, b);
-    self.a = a
-    self.b = b
+  b = 1
 
   def printB(self):
     print("b is:" + str(self.b))
@@ -82,11 +82,14 @@ class Child(Base):
     self.printA()
     self.printB()
 
-child = Child(1, 2)
-child.printAll()
-
+child = Child()
+child.a = 12
+child.b = 24
 ```
-[8.py](8.py)
+[08.py](08.py)
 
 #### Practice
+[09.py](09.py)
+[10.py](10.py)
+[11.py](11.py)
 
