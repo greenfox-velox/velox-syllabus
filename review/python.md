@@ -15,9 +15,9 @@ while not b:
   ...
 
 # Bad
-if b == True
+if b == True:
   ...
-while b == False
+while b == False:
   ...
 ```
 
@@ -26,7 +26,7 @@ while b == False
 When you need to iterate through a list and do something with all the elements, you should use `foreach` syntax, not with `while` or `for` with indices.
 ```python
 # Good
-for element in list
+for element in list:
   print(element)
 
 # Bad
@@ -35,4 +35,27 @@ size = len(elements)
 while i < size:
   print(elements[i])
   i += 1
+```
+
+### Indentation in Python
+
+By default the styleguide says indentation should be 4 spaces. Our religion is 2 spaces for all languages, so both of them are acceptable, but __be consistant__!
+
+```python
+# Good
+def something():
+  statement
+
+# Good
+if something:
+    statement
+
+# Bad
+def another():
+        very_deep_statement
+
+# Bad
+for i in list:
+  if something:
+      not_consistant
 ```

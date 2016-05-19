@@ -1,4 +1,3 @@
-NANYANYAN
 # syllabus-4-month
 
 ## Important links
@@ -26,6 +25,30 @@ NANYANYAN
 - Forms
 - Advanced CSS
 - Build a complex webpage (like Wikipedia article)
+
+#### 3. Python Basics
+- Expressions
+- Control flow
+- Functions
+- OO
+- DEMOday
+
+#### 4. Understanding
+- IO
+- Code review
+- Take inter
+- Recursion
+- Profit
+
+#### 5. Todo App and Testing
+- Testing
+- Dojo
+- Exceptions
+- Todo App
+
+#### 6. RPG
+- MVC and Architecture
+- RPG
 
 ### Orientation
 Weeks:
