@@ -20,7 +20,7 @@ at least than 3 characters, and returns a list with the found palindromes.
 Example:
 ```python
 output = search_palindromes('dog goat dad duck doodle never')
-print(output) # it prints: ['dad', 'dood', 'eve']
+print(output) # it prints: ['og go', ' dad ', 'd d', 'dood', 'eve']
 ```
 
 ## Days
