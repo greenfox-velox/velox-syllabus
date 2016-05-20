@@ -4,6 +4,8 @@
 
 Mandatory:
 
+* https://www.youtube.com/watch?v=YV6qm6erphk
+* https://www.youtube.com/watch?v=WN4A6iJOUns
 * [General introduction to modules][1]
 * [General introduction to file handling / IO][2]
 
