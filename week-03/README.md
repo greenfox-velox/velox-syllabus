@@ -1,6 +1,18 @@
 # Week 3 - Basics of Programming (Python)
 Create simple programs that run in the terminal
 
+## Expected skills till end of the week
+ - Types
+ - Expressions
+ - Variables
+ - Mutations
+ - Conditionals
+ - Loops
+ - Classes
+ - Objects
+ - Lists
+ - Iteration
+
 ## Project
 Palindome Kata
 The Kata has two part, the first one is mandatory for everybody, the second
@@ -23,12 +35,6 @@ output = search_palindromes('dog goat dad duck doodle never')
 print(output) # it prints: ['og go', ' dad ', 'd d', 'dood', 'eve']
 ```
 
-## Days
-- Types | Variables | Expressions | Control Flow
-- Functions | Data Structures
-- Class | Object Oriented Programming
-- Exceptions | Testing
-- Practice and Kata
 
 ## Demo description
 Creating simple algorithms as searching palindromes in a string, to practice variables, conditionals, loops and the other basic elements of a programming languages in python
