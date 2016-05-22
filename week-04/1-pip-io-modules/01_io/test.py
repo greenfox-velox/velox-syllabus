@@ -37,16 +37,20 @@ class TestIO(unittest.TestCase):
         self.assertEqual(basics.string(self.char_codes), self.string)
 
     def test_crypto_dup(self):
-        self.assertEqual(crypto_1dup.decrypt('texts/duplicated_chars.txt'), self.load_file_content('texts/zen_of_python.txt'))
+        self.assertEqual(crypto_1dup.decrypt('texts/duplicated_chars.txt'),
+                         self.load_file_content('texts/zen_of_python.txt'))
 
     def test_crypto_revlines(self):
-        self.assertEqual(crypto_2revlines.decrypt('texts/reversed_zen_lines.txt'), self.load_file_content('texts/zen_of_python.txt'))
+        self.assertEqual(crypto_2revlines.decrypt('texts/reversed_zen_lines.txt'),
+                         self.load_file_content('texts/zen_of_python.txt'))
 
     def test_crypto_revorder(self):
-        self.assertEqual(crypto_3revorder.decrypt('texts/reversed_zen_order.txt'), self.load_file_content('texts/zen_of_python.txt'))
+        self.assertEqual(crypto_3revorder.decrypt('texts/reversed_zen_order.txt'),
+                         self.load_file_content('texts/zen_of_python.txt'))
 
     def test_crypto_encoded(self):
-        self.assertEqual(crypto_4encoded.decrypt('texts/duplicated_chars.txt'), self.load_file_content('texts/zen_of_python.txt'))
+        self.assertEqual(crypto_4encoded.decrypt('texts/duplicated_chars.txt'),
+                         self.load_file_content('texts/zen_of_python.txt'))
 
     def create_file_width_content(self, file_name, content):
         f = open(file_name, 'w')

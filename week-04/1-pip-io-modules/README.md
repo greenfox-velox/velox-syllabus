@@ -9,7 +9,26 @@ Mandatory:
 * [General introduction to modules][1]
 * [General introduction to file handling / IO][2]
 
+## Assignment Review
+- `open()` and parameters `r, w, a`
+- `close()`
+- `write()`
+- `read()`, `readline()` and `readlines()`
+- `module` and `submodule`
+- `import`
+- `from`
+- `help()`
+- OS module
+- Requests module
+
 ## Tasks
+- First of all, you should copy all files to your working directory from
+    - `01-io` and
+    - `02-pip` folders
+- You can see all the tasks there, with a prepared skeleton to work in
+- The reason for that is so you can check your work with tests
+- There's a `test.py` in every corresponding folder, try and run it
+- The only thing matters from here is to get these to pass :)
 
 ### I/O
 
