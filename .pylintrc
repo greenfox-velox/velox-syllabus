@@ -1,0 +1,20 @@
+[BASIC]
+# Regular expression which should only match correct module names
+module-rgx=([a-z0-9_]*)$
+# Regular expression which should only match correct module level names
+# Default: (([A-Z_][A-Z1-9_]*)|(__.*__))$
+const-rgx=([a-z0-9_]*)$
+# Regular expression which should only match correct attribute names
+argument-rgx=[a-z_][a-z0-9_]{0,30}$
+# Regular expression which should only match correct variable names
+variable-rgx=[a-z_][a-z0-9_]{0,30}$
+
+
+
+
+[MESSAGES CONTROL]
+# Disable the following PyLint messages:
+# C0111 - docstring stuff
+# W0401 - wildcard import
+# W0614 - unused from wildcard import
+disable=C0111,W0401,W0614
