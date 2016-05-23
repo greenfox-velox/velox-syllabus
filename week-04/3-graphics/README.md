@@ -55,13 +55,13 @@ root.mainloop()
 - [09.py](workshop/09.py)
 - [10.py](workshop/10.py)
 - [11.py](workshop/11.py)
-- Reproduce these:
-![square one](workshop/r3.png)
-![square two](workshop/r4.png)
+- Reproduce these:   
+![square one](workshop/r3.png)   
+![square two](workshop/r4.png)   
 - [12.py](workshop/12.py)
 - [13.py](workshop/13.py)
 - [14.py](workshop/14.py)
-- Reproduce these:
-![doodle one](workshop/r1.png)
-![doodle two](workshop/r2.png)
+- Reproduce these:   
+![doodle one](workshop/r1.png)   
+![doodle two](workshop/r2.png)   
 - [15.py](workshop/15.py)
