@@ -2,7 +2,7 @@ def decrypt(file_name):
     decrypted_content = ''
     
     for letter in get_file_content(file_name):
-        if not is_white_space(letter):
+        if not letter == ' ' or letter == '\n':
             letter = chr(ord(letter) - 1)
         decrypted_content += letter
 
@@ -14,8 +14,5 @@ def get_file_content(file_name):
     f.close()
     return file_content
 
-def is_white_space(letter):
-    return letter == ' ' or letter == '\n'
 
-
-	print(decrypt('input.txt'))
+print(decrypt('input.txt'))

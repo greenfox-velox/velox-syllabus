@@ -18,4 +18,4 @@ def is_white_space(letter):
     return letter == ' ' or letter == '\n'
 
 
-	print(decrypt('input.txt'))
+print(decrypt('input.txt'))
