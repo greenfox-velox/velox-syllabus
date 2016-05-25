@@ -13,8 +13,10 @@ https://www.youtube.com/watch?v=6qCQB8E5bkI&list=PL36E7A2B75028A3D6&index=11
 * https://www.youtube.com/watch?v=kx6DfrYfWnQ&list=PL36E7A2B75028A3D6&index=13
 * https://www.youtube.com/watch?v=urPVT1lymzU&list=PL36E7A2B75028A3D6&index=17
 * https://www.youtube.com/watch?v=zg-ddPbzcKM&index=18&list=PL36E7A2B75028A3D6
+
 Fractals   
-* 
+
+*
 https://www.youtube.com/watch?v=WFtTdf3I6Ug
 
 ### Nice to have
