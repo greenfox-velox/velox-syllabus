@@ -68,4 +68,4 @@ root.mainloop()
 - [16.py](workshop/16.py)
 - Reproduce these:
 ![doodle one](workshop/r5.png)   
-![doodle one](workshop/r6.png)   
+![doodle one](workshop/r6.gif)   
