@@ -65,3 +65,7 @@ root.mainloop()
 ![doodle one](workshop/r1.png)   
 ![doodle two](workshop/r2.png)   
 - [15.py](workshop/15.py)
+- [16.py](workshop/16.py)
+- Reproduce these:
+![doodle one](workshop/r5.png)   
+![doodle one](workshop/r6.png)   
