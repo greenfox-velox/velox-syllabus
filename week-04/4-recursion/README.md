@@ -59,3 +59,6 @@ print('5! is', factorial(5))
 - [10.py](workshop/10.py)
 - 11: reproduce this:   
 ![11](workshop/recursive_graphic.png)
+- [12.py](workshop/12.py)
+- 13: reproduce this:   
+![13](workshop/recursive_graphic_2.png)
