@@ -16,7 +16,7 @@
    - Tell the skill expectations for that week
    - Tell the project
    - Tell the schedule (with calendar)
-- Check the student presentation board
+ - Check the student presentation board
    - Ask volunteers for each task
    - Assign its due date maximum till next week (if there is vacancy)
    - Ask the currend day presentation to proceed
