@@ -9,3 +9,7 @@ Please recreate this:
  - Try to give as clear names as possible
  - Try to separate different responsibilities
  - Try to use constants for reused values
+
+## Optional
+
+![hexagonal fractal](2.jpg)
