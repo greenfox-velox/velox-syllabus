@@ -1,10 +1,11 @@
 # Week 5 - Higher concepts in Programming
 
 ## Project
-Hardware programming
+Command line Todo App
 
 ## Days
 - TDD
-- Design Patterns
-- Functinal Programming | Lambda
-- HW project
+- Dojo
+- Exceptions
+- Design patterns
+- Project
