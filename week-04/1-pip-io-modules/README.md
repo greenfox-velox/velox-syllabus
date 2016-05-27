@@ -65,9 +65,7 @@ for line in my_file:
 
 [CSV - The Python Standard Library Docs][10]
 
-#### Lottery
-
-Print the five most frequent numbers and how many times they have occurred!
+At first try to use the CSV Library Module to read the contents of `otos.csv`.
 
 ### PIP
 
@@ -75,12 +73,18 @@ PIP is a tool for installing packages from the Python Package Index.
 
 `pip3 --version` /// `pip --version`
 
+(If you don't have pip, install it! Search for the commands for your operating system)
+
 Install an external package
 
 [PrettyTable][7]
 [PrettyTable short tutorial][9]
 
 `pip3 install prettytable` /// `pip install prettytable`
+
+#### Lottery
+
+Print the five most frequent numbers and how many times they have occurred!
 
 ## References
 

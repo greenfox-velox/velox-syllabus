@@ -9,7 +9,7 @@ class TestIO(unittest.TestCase):
 
     def setUp(self):
         self.line = 'asdasdsadasad'
-        self.content = 'askdaslkdjsalkd\n' + self.line + '\asdasdsadsad'
+        self.content = 'askdaslkdjsalkd\n' + self.line + '\nsdasdsadsad'
         self.file_name = 'test.txt'
         self.words = ['This', 'is', 'a', 'long', 'sentence']
         self.sentence = 'This is a long sentence.'
