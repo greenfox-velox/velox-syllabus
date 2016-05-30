@@ -10,9 +10,11 @@ def max_of_three(a, b, c):
     else:
         return c
 
+# Returns the median value of a list given as param
 def median(pool):
     return pool[int((len(pool) - 1) / 2)]
 
+# Returns true if the param is a vovel
 def is_vovel(char):
     return char in 'aeiou'
 
