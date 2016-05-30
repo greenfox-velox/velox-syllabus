@@ -1,0 +1,494 @@
+FFFFEFFE....FFF.F.FF.F....F.....F...FF.E...F.F..E.F...FF.FFF.FF.F.FFE.F.......FFFFF...FF.FFF..F.
+======================================================================
+ERROR: test_anagramm (agyenes_test.tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/agyenes_test.py", line 9, in test_anagramm
+    self.assertEqual(anagramm(4, 'alma'), '')
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/work.py", line 4, in anagramm
+    a = sorted(str1)
+TypeError: 'int' object is not iterable
+
+======================================================================
+ERROR: test_anagramm_integers (aliz_test.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/aliz_test.py", line 26, in test_anagramm_integers
+    self.assertFalse(anagramm(123, 231))
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/work.py", line 4, in anagramm
+    a = sorted(str1)
+TypeError: 'int' object is not iterable
+
+======================================================================
+ERROR: test_anagramm_is_true_if_numbers (daniel_liptak_test.test_my_work)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/daniel_liptak_test.py", line 13, in test_anagramm_is_true_if_numbers
+    self.assertFalse(anagramm(2516, 1256))
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/work.py", line 4, in anagramm
+    a = sorted(str1)
+TypeError: 'int' object is not iterable
+
+======================================================================
+ERROR: peet_test (unittest.loader.ModuleImportFailure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/usr/lib/python3.4/unittest/case.py", line 577, in run
+    testMethod()
+  File "/usr/lib/python3.4/unittest/loader.py", line 32, in testFailure
+    raise exception
+ImportError: Failed to import test module: peet_test
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/unittest/loader.py", line 312, in _find_tests
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.4/unittest/loader.py", line 290, in _get_module_from_name
+    __import__(name)
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/peet_test.py", line 23
+    def test_letter_count_wrong_type(self):
+                                          ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+
+======================================================================
+ERROR: test_anagramm_without_string (pocok_test.DayOneTestCases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/pocok_test.py", line 12, in test_anagramm_without_string
+    self.assertFalse(anagramm(123, "Yolo"))
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/work.py", line 4, in anagramm
+    a = sorted(str1)
+TypeError: 'int' object is not iterable
+
+======================================================================
+FAIL: test_anagramm (Krisztina_NagyVaci_test.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/Krisztina_NagyVaci_test.py", line 7, in test_anagramm
+    self.assertTrue(anagramm('Alma', 'mala'))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_count_letters (Krisztina_NagyVaci_test.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/Krisztina_NagyVaci_test.py", line 13, in test_count_letters
+    self.assertEqual(count_letters('Ala'), dict)
+AssertionError: {'a': 1, 'l': 1, 'A': 1} != {'a': 2, 'l': 1}
+- {'A': 1, 'a': 1, 'l': 1}
+?  --------     ^
+
++ {'a': 2, 'l': 1}
+?       ^
+
+
+======================================================================
+FAIL: test_are_these_strings_anagramms_of_each_other (Robert_Czinege_test.AnagrammTestCases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/Robert_Czinege_test.py", line 13, in test_are_these_strings_anagramms_of_each_other
+    self.assertTrue(anagramm('AlmA', 'alma'), msg='The function should be not case sensitive!')
+AssertionError: False is not true : The function should be not case sensitive!
+
+======================================================================
+FAIL: test_how_many_different_characters_are_in_this_string (Robert_Czinege_test.AnagrammTestCases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/Robert_Czinege_test.py", line 21, in test_how_many_different_characters_are_in_this_string
+    self.assertEqual(count_letters(self.input_string_for_letter_counter), self.expected_letter_dictionary)
+AssertionError: {'2': 2, 'B': 1, ' ': 6, 'a': 2, 'c': 1, '1': 2, '!': 1, '%': 1, 'A': 2} != {'b': 1, '2': 2, 'a': 4, 'c': 1, '1': 2, ' ': 6, '!': 1, '%': 1}
+- {' ': 6, '!': 1, '%': 1, '1': 2, '2': 2, 'A': 2, 'B': 1, 'a': 2, 'c': 1}
+?                                         ----------------      ^
+
++ {' ': 6, '!': 1, '%': 1, '1': 2, '2': 2, 'a': 4, 'b': 1, 'c': 1}
+?                                               ^ ++++++++
+
+
+======================================================================
+FAIL: test_count_letters (agyenes_test.tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/agyenes_test.py", line 12, in test_count_letters
+    self.assertEqual(count_letters(''), {})
+AssertionError: 'Please type in valid strings' != {}
+
+======================================================================
+FAIL: test_anagramm_empty_string (aliz_test.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/aliz_test.py", line 23, in test_anagramm_empty_string
+    self.assertFalse(anagramm('', ''))
+AssertionError: 'Please type in valid strings' is not false
+
+======================================================================
+FAIL: test_anagramm_with_other_uppercase_letters (aliz_test.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/aliz_test.py", line 14, in test_anagramm_with_other_uppercase_letters
+    self.assertTrue(anagramm('Alma', 'Lama'))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_count_empty_string (aliz_test.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/aliz_test.py", line 41, in test_count_empty_string
+    self.assertEqual(count_letters(''), {})
+AssertionError: 'Please type in valid strings' != {}
+
+======================================================================
+FAIL: test_count_integers (aliz_test.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/aliz_test.py", line 44, in test_count_integers
+    self.assertEqual(count_letters(11233), {'1':2, '2':1, '3':2})
+AssertionError: 'Please type in words.' != {'2': 1, '1': 2, '3': 2}
+
+======================================================================
+FAIL: test_count_lower_and_uppercase_letters (aliz_test.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/aliz_test.py", line 32, in test_count_lower_and_uppercase_letters
+    self.assertEqual(count_letters('Alma'), {'a':2, 'l':1, 'm':1})
+AssertionError: {'a': 1, 'm': 1, 'l': 1, 'A': 1} != {'a': 2, 'm': 1, 'l': 1}
+- {'A': 1, 'a': 1, 'l': 1, 'm': 1}
+?  --------     ^
+
++ {'a': 2, 'l': 1, 'm': 1}
+?       ^
+
+
+======================================================================
+FAIL: test_count_numbers_in_string (aliz_test.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/aliz_test.py", line 35, in test_count_numbers_in_string
+    self.assertEqual(count_letters('11233'), {'1':2, '2':1, '3':2})
+AssertionError: 'Please type in words.' != {'2': 1, '1': 2, '3': 2}
+
+======================================================================
+FAIL: test_count__empty_letters (anna_torok_test.TestTwoAnagrams)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/anna_torok_test.py", line 43, in test_count__empty_letters
+    self.assertEqual(count_letters(''), {})
+AssertionError: 'Please type in valid strings' != {}
+
+======================================================================
+FAIL: test_count__with_uppercase_letters (anna_torok_test.TestTwoAnagrams)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/anna_torok_test.py", line 40, in test_count__with_uppercase_letters
+    self.assertEqual(count_letters('lomhaMacska'), count_letters('scAkmahomal'))
+AssertionError: {'o': 1, 'M': 1, 'c': 1, 'a': 3, 'l': 1, 'k': 1, 'm': 1, 'h': 1, 's': 1} != {'o': 1, 'l': 1, 'h': 1, 'a': 2, 'c': 1, 'k': 1, 'm': 2, 's': 1, 'A': 1}
+- {'M': 1, 'a': 3, 'c': 1, 'h': 1, 'k': 1, 'l': 1, 'm': 1, 'o': 1, 's': 1}
+?   ^           ^                                       ^
+
++ {'A': 1, 'a': 2, 'c': 1, 'h': 1, 'k': 1, 'l': 1, 'm': 2, 'o': 1, 's': 1}
+?   ^           ^                                       ^
+
+
+======================================================================
+FAIL: test_number_and_string_anagrams_false (anna_torok_test.TestTwoAnagrams)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/anna_torok_test.py", line 13, in test_number_and_string_anagrams_false
+    self.assertFalse(anagramm('10001', 'amadeus'))
+AssertionError: 'Please type in words.' is not false
+
+======================================================================
+FAIL: test_for_case_sensitivity (attila_krupl_test.AnagramTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/attila_krupl_test.py", line 7, in test_for_case_sensitivity
+    self.assertTrue(anagramm("alma","aLmA"))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_for_case_sensitivity (attila_krupl_test.CountLettersTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/attila_krupl_test.py", line 17, in test_for_case_sensitivity
+    self.assertEqual(count_letters("Attila"), {'a': 2, 't': 2, 'i': 1, 'l': 1})
+AssertionError: {'a': 1, 'l': 1, 't': 2, 'i': 1, 'A': 1} != {'a': 2, 'i': 1, 'l': 1, 't': 2}
+- {'A': 1, 'a': 1, 'i': 1, 'l': 1, 't': 2}
+?  --------     ^
+
++ {'a': 2, 'i': 1, 'l': 1, 't': 2}
+?       ^
+
+
+======================================================================
+FAIL: test_for_lorem_ipsum (attila_krupl_test.CountLettersTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/attila_krupl_test.py", line 19, in test_for_lorem_ipsum
+    self.assertEqual(count_letters("Lorem ipsum dolor sit amet, massa in pede augue, pariatur lectus lectus nostra et nonummy felis, ut justo donec, volutpat vitae donec pharetra."), {'j': 1, '.': 1, 'i': 6, 'l': 6, 'a': 11, 't': 13, 'f': 1, 'o': 9, 'n': 6, 'v': 2, 'r': 7, 'u': 10, 'e': 13, 's': 9, 'c': 4, 'g': 1, ' ': 22, 'y': 1, 'p': 5, ',': 4, 'm': 6, 'h': 1, 'd': 4})
+AssertionError: {'f': 1, 'g': 1, ' ': 22, '.': 1, 'd': 4, '[149 chars]': 5} != {'j': 1, 'g': 1, 'f': 1, '.': 1, 'r': 7, 's[141 chars]': 6}
+  {' ': 22,
+   ',': 4,
+   '.': 1,
+-  'L': 1,
+   'a': 11,
+   'c': 4,
+   'd': 4,
+   'e': 13,
+   'f': 1,
+   'g': 1,
+   'h': 1,
+   'i': 6,
+   'j': 1,
+-  'l': 5,
+?       ^
+
++  'l': 6,
+?       ^
+
+   'm': 6,
+   'n': 6,
+   'o': 9,
+   'p': 5,
+   'r': 7,
+   's': 9,
+   't': 13,
+   'u': 10,
+   'v': 2,
+   'y': 1}
+
+======================================================================
+FAIL: test_anagramm_if_case_sensitive (gyozo_test.TestExamples)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/gyozo_test.py", line 10, in test_anagramm_if_case_sensitive
+    self.assertTrue(anagramm('alma', 'Mala'))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_anagramm_with_numbers (gyozo_test.TestExamples)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/gyozo_test.py", line 19, in test_anagramm_with_numbers
+    self.assertFalse(count_letters(1234))
+AssertionError: 'Please type in words.' is not false
+
+======================================================================
+FAIL: test_sorting (peter_fabics_test.TestCount_and_sorting_method)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/peter_fabics_test.py", line 8, in test_sorting
+    self.assertEqual(anagramm('aa1A', '1aaa'), True)
+AssertionError: False != True
+
+======================================================================
+FAIL: test_anagramm_method_mixed_letters_with_colon_correct_result (peter_foldvary_test.TestAnagrammAndCountLetters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/peter_foldvary_test.py", line 38, in test_anagramm_method_mixed_letters_with_colon_correct_result
+    self.assertEqual(True, result)
+AssertionError: True != False
+
+======================================================================
+FAIL: test_anagramm_method_mixed_uppercase_and_lowercase_letters_correct_result (peter_foldvary_test.TestAnagrammAndCountLetters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/peter_foldvary_test.py", line 30, in test_anagramm_method_mixed_uppercase_and_lowercase_letters_correct_result
+    self.assertEqual(True, result)
+AssertionError: True != False
+
+======================================================================
+FAIL: test_anagramm_method_mixed_with_first_letter_space_correct_result (peter_foldvary_test.TestAnagrammAndCountLetters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/peter_foldvary_test.py", line 42, in test_anagramm_method_mixed_with_first_letter_space_correct_result
+    self.assertEqual(True, result)
+AssertionError: True != False
+
+======================================================================
+FAIL: test_anagramm_method_mixed_with_last_letter_space_correct_result (peter_foldvary_test.TestAnagrammAndCountLetters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/peter_foldvary_test.py", line 46, in test_anagramm_method_mixed_with_last_letter_space_correct_result
+    self.assertEqual(True, result)
+AssertionError: True != False
+
+======================================================================
+FAIL: test_anagramm_method_only_numbers_correct_result (peter_foldvary_test.TestAnagrammAndCountLetters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/peter_foldvary_test.py", line 14, in test_anagramm_method_only_numbers_correct_result
+    self.assertEqual(True, result)
+AssertionError: True != 'Please type in words.'
+
+======================================================================
+FAIL: test_count_letters_method_lowercase_and_uppercase_letters_correct_result (peter_foldvary_test.TestAnagrammAndCountLetters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/peter_foldvary_test.py", line 54, in test_count_letters_method_lowercase_and_uppercase_letters_correct_result
+    self.assertEqual({'i': 1, 'c': 1, 's': 2, 'm': 1, 'a': 2, 'k': 2}, result)
+AssertionError: {'i': 1, 'a': 2, 'c': 1, 'k': 2, 'm': 1, 's': 2} != {'i': 1, 'K': 1, 'a': 2, 'c': 1, 'k': 1, 'm': 1, 's': 2}
+- {'a': 2, 'c': 1, 'i': 1, 'k': 2, 'm': 1, 's': 2}
+?                               ^
+
++ {'K': 1, 'a': 2, 'c': 1, 'i': 1, 'k': 1, 'm': 1, 's': 2}
+?  ++++++++                             ^
+
+
+======================================================================
+FAIL: test_count_letters_method_numbers_and_letters_true_if_only_letters_counted_correct_result (peter_foldvary_test.TestAnagrammAndCountLetters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/peter_foldvary_test.py", line 58, in test_count_letters_method_numbers_and_letters_true_if_only_letters_counted_correct_result
+    self.assertEqual({'c': 3, 'i': 2, 's': 4, 'k': 3, 'm': 1, 'e': 1, 'a': 2, 'o': 1}, result)
+AssertionError: {'o': 1, 'i': 2, 'e': 1, 'a': 2, 'c': 3, 'k[16 chars]': 4} != {'2': 1, 'o': 1, 'i': 2, 'e': 1, ' ': 2, 'a[40 chars]': 4}
+- {'a': 2, 'c': 3, 'e': 1, 'i': 2, 'k': 3, 'm': 1, 'o': 1, 's': 4}
++ {' ': 2,
++  '1': 1,
++  '2': 1,
++  'a': 2,
++  'c': 3,
++  'e': 1,
++  'i': 2,
++  'k': 3,
++  'm': 1,
++  'o': 1,
++  's': 4}
+
+======================================================================
+FAIL: test_anagramm_basic (pocok_test.DayOneTestCases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/pocok_test.py", line 9, in test_anagramm_basic
+    self.assertTrue(anagramm("Madam Curie", "Radium came"))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_anagramm_empty_input (pocok_test.DayOneTestCases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/pocok_test.py", line 18, in test_anagramm_empty_input
+    self.assertFalse(anagramm("", ""))
+AssertionError: 'Please type in valid strings' is not false
+
+======================================================================
+FAIL: test_anagramm_random_anagramms (pocok_test.DayOneTestCases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/pocok_test.py", line 21, in test_anagramm_random_anagramms
+    self.assertTrue(anagramm("Arrigo Boito", "Tobia Gorrio"))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_count_letters_int_input (pocok_test.DayOneTestCases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/pocok_test.py", line 29, in test_count_letters_int_input
+    self.assertFalse(count_letters(123))
+AssertionError: 'Please type in words.' is not false
+
+======================================================================
+FAIL: test_count_letters_asd (test_oreg_zoltan_work.AnagrammAndCountLettersTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/test_oreg_zoltan_work.py", line 18, in test_count_letters_asd
+    self.assertEqual(count_letters('asdssdd a'), ({'a':2, 's':3, 'd':3}))
+AssertionError: {'a': 2, ' ': 1, 'd': 3, 's': 3} != {'a': 2, 'd': 3, 's': 3}
+- {' ': 1, 'a': 2, 'd': 3, 's': 3}
+?  --------
+
++ {'a': 2, 'd': 3, 's': 3}
+
+======================================================================
+FAIL: test_count_letters_stars (test_oreg_zoltan_work.AnagrammAndCountLettersTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/test_oreg_zoltan_work.py", line 21, in test_count_letters_stars
+    self.assertEqual(count_letters('**01 *01 *a'), ({'a':1}))
+AssertionError: {'a': 1, '1': 2, '0': 2, '*': 4, ' ': 2} != {'a': 1}
+- {' ': 2, '*': 4, '0': 2, '1': 2, 'a': 1}
++ {'a': 1}
+
+======================================================================
+FAIL: test_count_letters_stars_vv (test_oreg_zoltan_work.AnagrammAndCountLettersTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/test_oreg_zoltan_work.py", line 24, in test_count_letters_stars_vv
+    self.assertEqual(count_letters(' VVqqovv '), ({'v':4, 'q':2, 'o':1}))
+AssertionError: {'q': 2, 'V': 2, 'o': 1, 'v': 2, ' ': 2} != {'q': 2, 'o': 1, 'v': 4}
+- {' ': 2, 'V': 2, 'o': 1, 'q': 2, 'v': 2}
++ {'o': 1, 'q': 2, 'v': 4}
+
+======================================================================
+FAIL: test_if_anagramm_abrak (test_oreg_zoltan_work.AnagrammAndCountLettersTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/test_oreg_zoltan_work.py", line 8, in test_if_anagramm_abrak
+    self.assertTrue(anagramm('abrak','akraB'))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_if_anagramm_qwer (test_oreg_zoltan_work.AnagrammAndCountLettersTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/test_oreg_zoltan_work.py", line 11, in test_if_anagramm_qwer
+    self.assertTrue(anagramm('qwer tzu','UzTwerq '))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_empty_string (timi_kurucz_test.WordsTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/timi_kurucz_test.py", line 19, in test_empty_string
+    self.assertEqual(count_letters(''), {})
+AssertionError: 'Please type in valid strings' != {}
+
+======================================================================
+FAIL: test_empty_strings_not_anagrams (timi_kurucz_test.WordsTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/timi_kurucz_test.py", line 10, in test_empty_strings_not_anagrams
+    self.assertFalse(anagramm('', ''))
+AssertionError: 'Please type in valid strings' is not false
+
+======================================================================
+FAIL: test_uppercase_letter_in_string (timi_kurucz_test.WordsTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/timi_kurucz_test.py", line 15, in test_uppercase_letter_in_string
+    self.assertEqual(count_letters('helLo'), count_letters('olleh'))
+AssertionError: {'o': 1, 'e': 1, 'l': 1, 'L': 1, 'h': 1} != {'o': 1, 'e': 1, 'l': 2, 'h': 1}
+- {'L': 1, 'e': 1, 'h': 1, 'l': 1, 'o': 1}
+?  --------                     ^
+
++ {'e': 1, 'h': 1, 'l': 2, 'o': 1}
+?                       ^
+
+
+======================================================================
+FAIL: test_words_uppercase_letter_are_anagrams (timi_kurucz_test.WordsTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/timi_kurucz_test.py", line 8, in test_words_uppercase_letter_are_anagrams
+    self.assertTrue(anagramm('aLma', 'Alma'))
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_count_letters_empty (zsolt_fekete_test.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/zsolt_fekete_test.py", line 44, in test_count_letters_empty
+    self.assertFalse(count_letters(''),{})
+AssertionError: 'Please type in valid strings' is not false : {}
+
+======================================================================
+FAIL: test_is_it_anagramm_empty (zsolt_fekete_test.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/zsolt_fekete_test.py", line 11, in test_is_it_anagramm_empty
+    self.assertFalse(anagramm('',''))
+AssertionError: 'Please type in valid strings' is not false
+
+----------------------------------------------------------------------
+Ran 96 tests in 0.035s
+
+FAILED (failures=42, errors=5)

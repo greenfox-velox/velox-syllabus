@@ -1,0 +1,223 @@
+....EEFE......E..............F.........E.....E..E.............F...F.EFE.....F.FFF......F......F.
+======================================================================
+ERROR: test_anagramm (agyenes_test.tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/agyenes_test.py", line 9, in test_anagramm
+    self.assertEqual(anagramm(4, 'alma'), '')
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/work.py", line 4, in anagramm
+    s1 = str(s1.lower())
+AttributeError: 'int' object has no attribute 'lower'
+
+======================================================================
+ERROR: test_count_letters (agyenes_test.tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/agyenes_test.py", line 13, in test_count_letters
+    self.assertEqual(count_letters(5.03), '')
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/work.py", line 15, in count_letters
+    string = str(string.lower())
+AttributeError: 'float' object has no attribute 'lower'
+
+======================================================================
+ERROR: test_anagramm_integers (aliz_test.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/aliz_test.py", line 26, in test_anagramm_integers
+    self.assertFalse(anagramm(123, 231))
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/work.py", line 4, in anagramm
+    s1 = str(s1.lower())
+AttributeError: 'int' object has no attribute 'lower'
+
+======================================================================
+ERROR: test_count_integers (aliz_test.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/aliz_test.py", line 44, in test_count_integers
+    self.assertEqual(count_letters(11233), {'1':2, '2':1, '3':2})
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/work.py", line 15, in count_letters
+    string = str(string.lower())
+AttributeError: 'int' object has no attribute 'lower'
+
+======================================================================
+ERROR: test_anagramm_is_true_if_numbers (daniel_liptak_test.test_my_work)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/daniel_liptak_test.py", line 13, in test_anagramm_is_true_if_numbers
+    self.assertFalse(anagramm(2516, 1256))
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/work.py", line 4, in anagramm
+    s1 = str(s1.lower())
+AttributeError: 'int' object has no attribute 'lower'
+
+======================================================================
+ERROR: test_anagramm_with_numbers (gyozo_test.TestExamples)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/gyozo_test.py", line 19, in test_anagramm_with_numbers
+    self.assertFalse(count_letters(1234))
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/work.py", line 15, in count_letters
+    string = str(string.lower())
+AttributeError: 'int' object has no attribute 'lower'
+
+======================================================================
+ERROR: peet_test (unittest.loader.ModuleImportFailure)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/unittest/case.py", line 58, in testPartExecutor
+    yield
+  File "/usr/lib/python3.4/unittest/case.py", line 577, in run
+    testMethod()
+  File "/usr/lib/python3.4/unittest/loader.py", line 32, in testFailure
+    raise exception
+ImportError: Failed to import test module: peet_test
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/unittest/loader.py", line 312, in _find_tests
+    module = self._get_module_from_name(name)
+  File "/usr/lib/python3.4/unittest/loader.py", line 290, in _get_module_from_name
+    __import__(name)
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/peet_test.py", line 23
+    def test_letter_count_wrong_type(self):
+                                          ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+
+======================================================================
+ERROR: test_anagramm_without_string (pocok_test.DayOneTestCases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/pocok_test.py", line 12, in test_anagramm_without_string
+    self.assertFalse(anagramm(123, "Yolo"))
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/work.py", line 4, in anagramm
+    s1 = str(s1.lower())
+AttributeError: 'int' object has no attribute 'lower'
+
+======================================================================
+ERROR: test_count_letters_int_input (pocok_test.DayOneTestCases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/pocok_test.py", line 29, in test_count_letters_int_input
+    self.assertFalse(count_letters(123))
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/work.py", line 15, in count_letters
+    string = str(string.lower())
+AttributeError: 'int' object has no attribute 'lower'
+
+======================================================================
+FAIL: test_anagramm_empty_string (aliz_test.TestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/aliz_test.py", line 23, in test_anagramm_empty_string
+    self.assertFalse(anagramm('', ''))
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_two_string_with_uppercase_anagrams_false (anna_torok_test.TestTwoAnagrams)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/anna_torok_test.py", line 19, in test_two_string_with_uppercase_anagrams_false
+    self.assertFalse(anagramm('Kalman', 'mankal'))
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_count_letters_method_numbers_and_letters_true_if_only_letters_counted_correct_result (peter_foldvary_test.TestAnagrammAndCountLetters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/peter_foldvary_test.py", line 58, in test_count_letters_method_numbers_and_letters_true_if_only_letters_counted_correct_result
+    self.assertEqual({'c': 3, 'i': 2, 's': 4, 'k': 3, 'm': 1, 'e': 1, 'a': 2, 'o': 1}, result)
+AssertionError: {'c':[16 chars] 4, 'o': 1, 'e': 1, 'k': 3, 'm': 1, 'a': 2} != {'c':[16 chars] 4, '1': 1, 'o': 1, 'e': 1, ' ': 2, 'k': 3, 'm[16 chars]': 1}
+- {'a': 2, 'c': 3, 'e': 1, 'i': 2, 'k': 3, 'm': 1, 'o': 1, 's': 4}
++ {' ': 2,
++  '1': 1,
++  '2': 1,
++  'a': 2,
++  'c': 3,
++  'e': 1,
++  'i': 2,
++  'k': 3,
++  'm': 1,
++  'o': 1,
++  's': 4}
+
+======================================================================
+FAIL: test_anagramm_empty_input (pocok_test.DayOneTestCases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/pocok_test.py", line 18, in test_anagramm_empty_input
+    self.assertFalse(anagramm("", ""))
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_count_letters_compare_with_Hello (pocok_test.DayOneTestCases)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/pocok_test.py", line 26, in test_count_letters_compare_with_Hello
+    self.assertEqual(hello_count, count_letters("Hello"))
+AssertionError: {'l': 2, 'o': 1, 'H': 1, 'e': 1} != {'l': 2, 'o': 1, 'h': 1, 'e': 1}
+- {'H': 1, 'e': 1, 'l': 2, 'o': 1}
+?  --------
+
++ {'e': 1, 'h': 1, 'l': 2, 'o': 1}
+?         ++++++++
+
+
+======================================================================
+FAIL: test_letter_counter_uppercase (sandor_biro_test.AnagrammTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/sandor_biro_test.py", line 24, in test_letter_counter_uppercase
+    self.assertNotEqual(count_letters('alMa'), count_letters('mala'))
+AssertionError: {'l': 1, 'm': 1, 'a': 2} == {'l': 1, 'm': 1, 'a': 2}
+
+======================================================================
+FAIL: test_count_letters_asd (test_oreg_zoltan_work.AnagrammAndCountLettersTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/test_oreg_zoltan_work.py", line 18, in test_count_letters_asd
+    self.assertEqual(count_letters('asdssdd a'), ({'a':2, 's':3, 'd':3}))
+AssertionError: {' ': 1, 's': 3, 'd': 3, 'a': 2} != {'s': 3, 'd': 3, 'a': 2}
+- {' ': 1, 'a': 2, 'd': 3, 's': 3}
+?  --------
+
++ {'a': 2, 'd': 3, 's': 3}
+
+======================================================================
+FAIL: test_count_letters_stars (test_oreg_zoltan_work.AnagrammAndCountLettersTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/test_oreg_zoltan_work.py", line 21, in test_count_letters_stars
+    self.assertEqual(count_letters('**01 *01 *a'), ({'a':1}))
+AssertionError: {' ': 2, '*': 4, '1': 2, 'a': 1, '0': 2} != {'a': 1}
+- {' ': 2, '*': 4, '0': 2, '1': 2, 'a': 1}
++ {'a': 1}
+
+======================================================================
+FAIL: test_count_letters_stars_vv (test_oreg_zoltan_work.AnagrammAndCountLettersTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/test_oreg_zoltan_work.py", line 24, in test_count_letters_stars_vv
+    self.assertEqual(count_letters(' VVqqovv '), ({'v':4, 'q':2, 'o':1}))
+AssertionError: {' ': 2, 'q': 2, 'o': 1, 'v': 4} != {'q': 2, 'o': 1, 'v': 4}
+- {' ': 2, 'o': 1, 'q': 2, 'v': 4}
+?  --------
+
++ {'o': 1, 'q': 2, 'v': 4}
+
+======================================================================
+FAIL: test_empty_strings_not_anagrams (timi_kurucz_test.WordsTestCase)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/timi_kurucz_test.py", line 10, in test_empty_strings_not_anagrams
+    self.assertFalse(anagramm('', ''))
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_is_it_anagramm_empty (zsolt_fekete_test.Test)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/gyulavari/greenfox/syllabus/velox-syllabus/week-05/1-tdd/grouptest/tests/zsolt_fekete_test.py", line 11, in test_is_it_anagramm_empty
+    self.assertFalse(anagramm('',''))
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 96 tests in 0.016s
+
+FAILED (failures=11, errors=9)
