@@ -12,6 +12,8 @@ Create simple programs that run in the terminal
  - Objects
  - Lists
  - Iteration
+ - Casting
+ - understanding Reference types
 
 ## Project
 Palindome Kata
