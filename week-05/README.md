@@ -9,3 +9,6 @@ Command line Todo App
 - Exceptions
 - Design patterns
 - Project
+
+## Demo descriptions
+Understanding the concept of unittetsting and TDD. Creating a minimal commandline app for managing todos.

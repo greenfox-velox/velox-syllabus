@@ -9,3 +9,6 @@
 - Graphics
 - Recursion
 - Fractals
+
+## Demo description
+Using IO procedures in python to read, write and manipulate files. Using the Tkinter library drawing fractals to understand recursion.
