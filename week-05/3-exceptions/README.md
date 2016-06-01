@@ -20,28 +20,41 @@ Write a command-line todo application to easily keep track of your day-to-day ta
 
 Basics (mandatory):
 
-Prints usage
-A todo item has (at least) a completed state and a description
-Add new items
-Complete items
-Remove items
-List items
+ - Prints usage
+ - A todo task has (at least) a completed state and a description
+ - Add new tasks
+ - Complete tasks
+ - Remove tasks
+ - List tasks
+
+Advanced (optional):
+ - Refactor the application to align with the proposed architecture
+ - Write unittests for any unit it feels possible
 
 ### Stories
+Please cr eate a trello board for yourself and add these stories.
+The trello board should consist 4 columns:
+ - Todo
+ - Doing
+ - Review
+ - Done
+
+You should not have 2 or more stories in Doing and Review
+If you have a story in Review show it to one of the mentors to push it to done.
 
 #### Usage
  - Given the terminal opened in the project directory
- - When the application is runned by executing `python todo.py`
+ - When the application is ran by executing `python todo.py`
  - Then it should print the usage information:
 ```
 Python Todo application
 =======================
 
 Command line arguments:
- -l   Lists all the items
- -a   Adds a new item
- -r   Removes an item
- -c   Completes an item
+ -l   Lists all the tasks
+ -a   Adds a new task
+ -r   Removes an task
+ -c   Completes an task
 ```
 
 ##### Help
@@ -50,10 +63,51 @@ Command line arguments:
 
 #### List
  - Given the terminal opened in the project directory, and a file that stores the todos
- - When the application is runned by executing `python todo.py -l`
+ - When the application is ran by executing `python todo.py -l`
  - Then it should print the todos that are stored in the file
 ```
-Walk the dog
-Buy milk
-Do homework
+1 - Walk the dog
+2 - Buy milk
+3 - Do homework
 ```
+##### Help
+ - https://docs.python.org/3/tutorial/inputoutput.html
+ - Ignore the storage file in the git repository using .gitignore
+
+#### Empty List
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.pt -l` and the file is empty
+ - Then it should show a message like this: `No todos for today! :)`
+
+#### Add new task
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.pt -a`
+ - Then it should add a new todo task to the file, if the todos are listed it should show up on the end
+
+#### Remove task
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.pt -r 2`
+ - Then it should remove the second item from the file, if it is listed it should not show up
+
+#### Remove task error handling
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.pt -r`
+ - Then it should show an error message like: `Unable to remove: No index is provided`
+
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.pt -r 20`
+ - Then it should show an error message, if there is no todo item on that index, like: `Unable to remove: Index is out of bound`
+
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.pt -r apple`
+ - Then it should show an error message like: `Unable to remove: Index is not a number`
+
+#### Argument error handling
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.pt -g` or with any other not listed arguments
+ - Then it should show an error message like: `Unsupported argument`, also it should print the usage information
+
+#### Missing file
+ - Given the terminal opened in the project directory, and no storage file
+ - When the application is ran by executing any command that uses the storage file
+ - Then it should create a new storage file in the current directory
