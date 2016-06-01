@@ -90,17 +90,20 @@ Command line arguments:
  - Then it should remove the second item from the file, if it is listed it should not show up
 
 #### Remove task error handling
- 1:
+1:
+
  - Given the terminal opened in the project directory, and a file that stores the todos
  - When the application is ran by executing `python todo.pt -r`
  - Then it should show an error message like: `Unable to remove: No index is provided`
 
- 2:
+2:
+
  - Given the terminal opened in the project directory, and a file that stores the todos
  - When the application is ran by executing `python todo.pt -r 20`
  - Then it should show an error message, if there is no todo item on that index, like: `Unable to remove: Index is out of bound`
 
- 3:
+3:
+
  - Given the terminal opened in the project directory, and a file that stores the todos
  - When the application is ran by executing `python todo.pt -r apple`
  - Then it should show an error message like: `Unable to remove: Index is not a number`
