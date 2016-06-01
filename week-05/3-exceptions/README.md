@@ -8,6 +8,17 @@
 ### Optional
  - https://www.youtube.com/watch?v=k50zqdXdYxc
 
+## Assingnment Review
+ - error
+ - failure
+ - syntactic error
+ - semantic error
+ - try
+ - exception
+ - except
+ - exception types
+ - finally
+ - raise
 
 ## Workshop
  - [1.py](workshop/1.py)
@@ -32,7 +43,7 @@ Advanced (optional):
  - Write unittests for any unit it feels possible
 
 ### Stories
-Please cr eate a trello board for yourself and add these stories.
+Please create a trello board for yourself and add these stories.
 The trello board should consist 4 columns:
  - Todo
  - Doing
@@ -57,9 +68,6 @@ Command line arguments:
  -c   Completes an task
 ```
 
-##### Help
- - http://www.tutorialspoint.com/python/python_command_line_arguments.htm
-
 
 #### List
  - Given the terminal opened in the project directory, and a file that stores the todos
@@ -71,41 +79,48 @@ Command line arguments:
 3 - Do homework
 ```
 ##### Help
+ - http://www.tutorialspoint.com/python/python_command_line_arguments.htm
  - https://docs.python.org/3/tutorial/inputoutput.html
  - Ignore the storage file in the git repository using .gitignore
 
+
 #### Empty List
  - Given the terminal opened in the project directory, and a file that stores the todos
- - When the application is ran by executing `python todo.pt -l` and the file is empty
+ - When the application is ran by executing `python todo.py -l` and the file is empty
  - Then it should show a message like this: `No todos for today! :)`
 
 #### Add new task
  - Given the terminal opened in the project directory, and a file that stores the todos
- - When the application is ran by executing `python todo.pt -a`
- - Then it should add a new todo task to the file, if the todos are listed it should show up on the end
+ - When the application is ran by executing `python todo.py -a "Feed the monkey"`
+ - Then it should add a new todo task (with the content `Feed the monkey`) to the file, if the todos are listed it should show up on the end
+
+#### Add task error handling
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.py -a`
+ - Then it should show an error message like: `Unable to add: No task is provided`
 
 #### Remove task
  - Given the terminal opened in the project directory, and a file that stores the todos
- - When the application is ran by executing `python todo.pt -r 2`
+ - When the application is ran by executing `python todo.py -r 2`
  - Then it should remove the second item from the file, if it is listed it should not show up
 
 #### Remove task error handling
 1:
 
  - Given the terminal opened in the project directory, and a file that stores the todos
- - When the application is ran by executing `python todo.pt -r`
+ - When the application is ran by executing `python todo.py -r`
  - Then it should show an error message like: `Unable to remove: No index is provided`
 
 2:
 
  - Given the terminal opened in the project directory, and a file that stores the todos
- - When the application is ran by executing `python todo.pt -r 20`
+ - When the application is ran by executing `python todo.py -r 20`
  - Then it should show an error message, if there is no todo item on that index, like: `Unable to remove: Index is out of bound`
 
 3:
 
  - Given the terminal opened in the project directory, and a file that stores the todos
- - When the application is ran by executing `python todo.pt -r apple`
+ - When the application is ran by executing `python todo.py -r apple`
  - Then it should show an error message like: `Unable to remove: Index is not a number`
 
 #### Argument error handling
