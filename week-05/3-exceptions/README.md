@@ -72,12 +72,20 @@ Command line arguments:
 #### List
  - Given the terminal opened in the project directory, and a file that stores the todos
  - When the application is ran by executing `python todo.py -l`
- - Then it should print the todos that are stored in the file
+ - Then it should print the todos that are stored in the file and it should add numbers before them when it prints it
 ```
 1 - Walk the dog
 2 - Buy milk
 3 - Do homework
 ```
+
+So in this case for example the content of the file is:
+```
+Walk the dog
+Buy milk
+Do homework
+```
+
 ##### Help
  - http://www.tutorialspoint.com/python/python_command_line_arguments.htm
  - https://docs.python.org/3/tutorial/inputoutput.html
