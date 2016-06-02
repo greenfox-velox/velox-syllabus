@@ -140,3 +140,41 @@ Do homework
  - Given the terminal opened in the project directory, and no storage file
  - When the application is ran by executing any command that uses the storage file
  - Then it should create a new storage file in the current directory
+
+#### Checked state
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.py -l` 
+ - Then it should show the checked state for each task like:
+
+```
+1 - [ ] Walk the dog
+2 - [ ] Buy milk
+3 - [x] Do homework
+```
+The state of the todos should be stored in the storage file. (CSV is recommended)
+
+#### Check task
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.py -c 2`
+ - Then it should check the second item from the file, if it is listed it should show up as checked
+
+#### Check task error handling
+1:
+
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.py -c`
+ - Then it should show an error message like: `Unable to check: No index is provided`
+
+2:
+
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.py -c 20`
+ - Then it should show an error message, if there is no todo item on that index, like: `Unable to check: Index is out of bound`
+
+3:
+
+ - Given the terminal opened in the project directory, and a file that stores the todos
+ - When the application is ran by executing `python todo.py -c apple`
+ - Then it should show an error message like: `Unable to check: Index is not a number`
+
+
