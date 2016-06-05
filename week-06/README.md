@@ -8,7 +8,7 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
 #### The Game screen
 - the screen contains the first area, which is 20x20 tiles where the hero (and the monsters) can move
     - every area contains 20x20 tiles
-- there tiles that cannot be occupied by any character (hero or monster)
+- there are tiles that cannot be occupied by any character (hero or monster)
 - every area contains 5-10 monsters
 - the monsters levels come from the number of the area
     - if its the Xth area, the mosters have lvl X (with 50% chance) or lvl X+1 (40%) or lvl X+2 (10%)
