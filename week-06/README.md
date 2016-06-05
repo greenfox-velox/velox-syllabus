@@ -1,178 +1,60 @@
 # Week 6 - Project
 
-## Project
-Text based RPG game
+## Project for the week
 
-## Stories
+### TkWanderer - The tkinter RPG game
+This is a hero based walking on tiles and killing monsters type of game. Heroes and monsters have levels and stats depending on their levels.
 
-### Main menu Story
-Simple command line main menu
-#### Print menu
-- Given a User
-- When the program is runned by typing `python game.py`
-- Then the menu should be shown
-Menu items: New game, Load Game, Exit
+#### The Game screen
+- the screen contains the first area, which is 20x20 tiles where the hero (and the monsters) can move
+    - every area contains 20x20 tiles
+- there tiles that cannot be occupied by any character (hero or monster)
+- every area contains 5-10 monsters
+- the monsters levels come from the number of the area
+    - if its the Xth area, the mosters have lvl X (with 50% chance) or lvl X+1 (40%) or lvl X+2 (10%)
+- one of the monsters holds the key to the next area
 
-#### Select menu item
-- When the menu is show
-- Then it should list the possible menu items
-- Then it should require an integer as selecting a menu items
+#### Moving
+- the hero can move tile-by-tile in four directions on the screen by using the corresponding arrows (or wsad if preferred)
+- after every two move, the monsters move one tile as well
 
-#### Enter submenu
-- When the menu item is selected (by pressing enter)
-- Then it should enter the submenu (by printing the sub menu list)
+#### The Characters
+- every character has a (max and current) health point (HP), a defend (DP) and strike point (SP)
+- these values can change during the game
+- when a character's health point is 0 or below, it is dead
+    - if its the hero, it is the end of the game
 
-#### Wrong input
-- Given the menu waiting for an input
-- When wrong input is entered
-- Then it should print an error message and require the input again
+#### Starting stats
+- Hero
+    - HP: 20 + 3 * d6
+    - DP: 2 * d6
+    - SP: 5 + d6
+- Monster Lvl x
+    - HP: 2 * x * d6
+    - DP: x/2 * d6
+    - SP: x * d6
 
-#### Exit menu item
-- Given the menu waiting for an input
-- When the Exit item is selected
-- Then it should exit
-
-### New game Story
-#### Name
-- Given a user
-- When the `New Game` menu item is selected
-- Then it should ask for a name
-- Then it should display it after enter it
-
-#### Name Submenu
-- Given an entered name
-- When the name is displayed
-- Then it should show a submenu
-Menu items: Reenter name, Continue, Save, Quit
-
-#### Reenter Name
-- Given an entered Name
-- When the Reenter name submenu is selected
-- Then it should ask for the name again
-
-#### Quit
-- Given an entered name
-- When Quit is selected
-- Then it should show the quit submenu:
-Save and Quit, Quit without save, Resume
-- Then Save and Quit should save the game and Quit
-- Quit without save should not save the character
-
-#### Roll stats
-- Given an entered name
-- When `Continue` is selected
-- Then it should roll the basic stats and display them:
-  - Dexterity: 1d6 + 6
-  - Health: 2d6 + 12
-  - Luck: 1d6 + 6
-- Then it should show a submenu
-Menu items: Reroll stats, Continue, Save, Quit
-
-#### Reroll stats
-- Given the rolled stats
-- When `Reroll stats` is selected
-- Then it should refresh the stats with new values
-
-#### Select Potion
-- Given the rolled stats
-- When `Continue` is selected
-- Then it should show a submenu
-Menu items: Potion of Health, Potion of Dexterity, Potion of Luck
-
-#### Choosed Potion
-- Given the potion menu
-- When the potion is selected
-- Then it should print the selected potion and show a submenu
-Menu items: Reselect the Potion, Continue, Quit
-
-#### Reselect Potion
-- Given the selected potion
-- When the Reselect the Potion item is selected
-- Then it should go back to the potion menu
-
-#### Begin
-- Given the selected potion
-- When the Continue item is selected
-- Then it should print the whole character stats:
-  - Dexterity
-  - Strength
-  - Luck
-  - Inventory:
-    - Sword
-    - Leather Armor
-    - Selected potion
-- Also it should show a submenu
-Menu items: Begin, Save, Quit
-
-### Save Story
-
-#### Save menu
-- Given any menu that contains the Save item
-- When the save item is selected
-- Then it should show a submenu, that lists the already saved items and other items
-Menu items: add new item, Resume, Quit
-
-#### Add new item
-- Given the save menu displayed
-- When the add new item is selected 
-- Then it should ask for a name (finnish it with enter)
-- Then it should create a new file with the given name like: <name>.json
-
-#### Already saved item
-- Given the save menu displayed
-- When an already saved item is selected
-- Then it should rewrite the file with the new state
-
-#### Load game menu
-- Given the main menu
-- When the Load Game item is selected 
-- Then it should show a submenu, that lists the already saved items and other items
-Menu items: Quit
-
-#### Load game
-- Given the load menu
-- When an item is selected
-- Then it should read the state from the file and enter the game
-
-### Fight
-
-#### Test Fight
-- Given a finished character
-- When Begin is selected
-- Then it prints that "Test your Sword in a test fight"
-- Then it show your and a monsters stats:
-  - Name
-  - Max and current Health
-  - Dexterity
-  - Max and current Luck (Not for the monsters)
-- Then it should show a fight submenu
-Items: Strike, Retreat, Quit
+#### Battle
+- when a hero enters a tile which is occupied by a monster, a battle forms
+- the character entering the occupied tile is the attacker who starts the battle
+- the attacker strikes on the defender, then the defender strikes and this continues until one of the characters dies
+- after a won battle if the character is a hero, it levels up
 
 #### Strike
-- Given a fight menu
-- When Strike is selected
-- Then it should roll with 2d6 for the monster and the player as well
-  add the dexterity for each and 
-- If the player's is higher than the monsters print: You hit the monster
-Print the submenu: Continue, Try your Luck, Retreat, Quit
-- If the player's is higher than the monsters print: The monster hit you
-Print the submenu: Continue, Try your Luck, Retreat, Quit
+- on a strike a strike value (SV) is calculated from SP and a random roll of 1-6 (d6)
+- the strike is successful if d6*SP is higher than the other character's DP
+- on a successful strike the other character's HP is decreased by the SV - the other character's DP
 
-#### After strike
-- Given the after strike menu
-- When Continue is selected
-- Then should show the Fight menu, and substract 2 from the loser
+#### Leveling
+- after successfully won battle the character is leveling up
+- his max HP increases by d6
+- his DP increases by d6
+- his SP increases by d6
 
-#### Try your luck
-- GTiven the after strike menu
-- When Try your luck is selected
-- Then roll with 2d6 
-- If your current luck is smaller than the result and the monster hit you,
-  reduce 3 Health points
-- If your current luck is at least the result and the monster hit you,
-  reduce 1 Health points, and one luck 
-- If your current luck is smaller than the result and you hit the monster,
-  reduce 1 Health points
-- If your current luck is at least the result and you hit the monster,
-  reduce 4 Health points, and one luck
-
+#### Entering next area
+- when killing the monster who held the key to the next area, the hero enters immediately
+    - which is like the previous one just with new and higher lvl monsters
+- when entering a new area the hero has
+    - 10% chance to restore all his HP
+    - 40% chance to restore the third of his HP
+    - 50% chance to restore 10% of his HP
