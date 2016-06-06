@@ -92,4 +92,11 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
 ##### Walls
  - Given the launched game
  - When the map is rendered to the screen
- - Then it should show floor and wall type tiles as well: ![full-map](full-map.png)
+ - Then it should show floor and wall type tiles as well: ![full map](full-map.png)
+
+##### Hero
+ - Given the launched game
+ - When the map is rendered to the screen
+ - Then it should show a hero on the top-left corner: ![hero](assets/hero-down.png) 
+
+ ![hero map](hero-map.png)
