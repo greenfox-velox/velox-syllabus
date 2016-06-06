@@ -45,8 +45,8 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
 - after a won battle if the character is a hero, it levels up
 
 #### Strike
-- on a strike a strike value (SV) is calculated from SP and a random roll of 1-6 (d6)
-- the strike is successful if d6*SP is higher than the other character's DP
+- on a strike a strike value (SV) is calculated from SP and a d6 doubled
+- the strike is successful if 2*d6 + SP is higher than the other character's DP
 - on a successful strike the other character's HP is decreased by the SV - the other character's DP
 
 #### Leveling
