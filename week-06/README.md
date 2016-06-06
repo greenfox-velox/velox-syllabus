@@ -18,11 +18,7 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
     - if the hero is on the same tile with a monster, it shows all stats of the monster as well
 
 #### Moving
-- the hero can move tile-by-tile in four directions on the screen by using the corresponding `arrow keys` (or `wsad` if preferred)
-- one of the monsters holds the key to the next area
- 
-#### Moving
--  the hero can move tile-by-tile in four directions on the screen by using the corresponding arrows (or wsad if preferred)
+- the hero can move tile-by-tile in four directions on the screen by using the corresponding arrows (or wsad if preferred)
 - after every two move, the monsters move one tile as well
 
 #### The Characters
