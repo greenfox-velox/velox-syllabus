@@ -20,6 +20,7 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
 #### Moving
 - the hero can move tile-by-tile in four directions on the screen by using the corresponding arrows (or wsad if preferred)
 - after every two move, the monsters move one tile as well
+- the hero is unable to move through a monster
 
 #### The Characters
 -  every character has a (max and current) health point (HP), a defend (DP) and strike point (SP)
@@ -66,13 +67,7 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
     - HP: 2 * x * d6
     - DP: x/2 * d6
     - SP: x * d6
- 
-#### Battle
-- when a hero enters a tile which is occupied by a monster, a battle forms
-- the character entering the occupied tile is the attacker who starts the battle
- - the attacker strikes on the defender, then the defender strikes and this continues until one of the characters dies
--  after a won battle if the character is a hero, it levels up
- 
+  
 #### Stories
  
 ##### Tile
