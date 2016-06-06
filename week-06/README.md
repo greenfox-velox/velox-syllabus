@@ -83,20 +83,51 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
  - Given a terminal opened in the project directory
  - When the game is runned by executing `python main.py`
  - Then it should show a tile like this: ![floor.png](assets/floor.png)
-
+ 
 ##### Map
  - Given a terminal opened in the project directory
  - When the game is runned by executing `python main.py`
  - Then it should show a map of tile like this: ![floor map](floor-map.png)
-
+ 
 ##### Walls
  - Given the launched game
  - When the map is rendered to the screen
  - Then it should show floor and wall type tiles as well: ![full map](full-map.png)
-
+ 
 ##### Hero
  - Given the launched game
  - When the map is rendered to the screen
  - Then it should show a hero on the top-left corner: ![hero](assets/hero-down.png) 
 
  ![hero map](hero-map.png)
+
+##### Move down
+ - Given the launched game
+ - When the "down arrow key" is pressed by the user
+ - Then the hero should move down one tile
+
+##### Move around
+ - Given the launched game
+ - When any of the arrow keys are pressed by the user
+ - Then the hero should move to that direction
+
+##### Hero direction
+ - Given the launched game
+ - When the hero is moved by the arrow keys
+ - Then the hero should face the direction where he went
+    - Up: ![up](assets/hero-up.png)
+    - Right: ![down](assets/hero-right.png)
+    - Down: ![down](assets/hero-down.png)
+    - Left: ![down](assets/hero-left.png)
+
+##### Map boundaries
+ - Given the hero on any edge of the map
+ - When the hero is moved by the arrow keys towards the edge
+ - Then it should not move, only its direction should change if necessary
+
+##### Walls
+ - Given the hero next to a wall tile
+ - When the hero is moved by the arrow keys towards the wall tile
+ - Then it should not move, only its direction should change if necessary
+
+
