@@ -19,10 +19,14 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
 
 #### Moving
 - the hero can move tile-by-tile in four directions on the screen by using the corresponding `arrow keys` (or `wsad` if preferred)
+- one of the monsters holds the key to the next area
+ 
+#### Moving
+-  the hero can move tile-by-tile in four directions on the screen by using the corresponding arrows (or wsad if preferred)
 - after every two move, the monsters move one tile as well
 
 #### The Characters
-- every character has a (max and current) health point (HP), a defend (DP) and strike point (SP)
+-  every character has a (max and current) health point (HP), a defend (DP) and strike point (SP)
 - these values can change during the game
 - when a character's health point is 0 or below, it is dead
     - if its the hero, it is the end of the game
@@ -62,3 +66,27 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
     - 10% chance to restore all his HP
     - 40% chance to restore the third of his HP
     - 50% chance to restore 10% of his HP
+- Monster Lvl x
+    - HP: 2 * x * d6
+    - DP: x/2 * d6
+    - SP: x * d6
+ 
+#### Battle
+- when a hero enters a tile which is occupied by a monster, a battle forms
+- the character entering the occupied tile is the attacker who starts the battle
+ - the attacker strikes on the defender, then the defender strikes and this continues until one of the characters dies
+-  after a won battle if the character is a hero, it levels up
+ 
+#### Stories
+ 
+##### Tile
+ - Given a terminal opened in the project directory
+ - When the game is runned by executing `python main.py`
+ - Then it should show a tile like this: ![floor.png](assets/floor.png)
+
+##### Map
+ - Given a terminal opened in the project directory
+ - When the game is runned by executing `python main.py`
+ - Then it should show a map of tile like this: ![floor map](floor-map.png)
+
+##### Walls
