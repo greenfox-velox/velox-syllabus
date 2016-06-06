@@ -6,16 +6,19 @@
 This is a hero based walking on tiles and killing monsters type of game. Heroes and monsters have levels and stats depending on their levels.
 
 #### The Game screen
-- the screen contains the first area, which is 20x20 tiles where the hero (and the monsters) can move
-    - every area contains 20x20 tiles
+- the screen contains the first area, which is 14x14 tiles where the hero (and the monsters) can move
+    - every area contains 14x14 tiles
 - there are tiles that cannot be occupied by any character (hero or monster)
-- every area contains 5-10 monsters
+- every area contains 3-6 monsters
 - the monsters levels come from the number of the area
     - if its the Xth area, the mosters have lvl X (with 50% chance) or lvl X+1 (40%) or lvl X+2 (10%)
-- one of the monsters holds the key to the next area
+- one of the monsters is the boss, who holds the key to the next area
+- the game screen also contains a text area where info of the characters' are provided
+    - it shows all stats of the hero
+    - if the hero is on the same tile with a monster, it shows all stats of the monster as well
 
 #### Moving
-- the hero can move tile-by-tile in four directions on the screen by using the corresponding arrows (or wsad if preferred)
+- the hero can move tile-by-tile in four directions on the screen by using the corresponding `arrow keys` (or `wsad` if preferred)
 - after every two move, the monsters move one tile as well
 
 #### The Characters
@@ -29,14 +32,15 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
     - HP: 20 + 3 * d6
     - DP: 2 * d6
     - SP: 5 + d6
-- Monster Lvl x
-    - HP: 2 * x * d6
-    - DP: x/2 * d6
-    - SP: x * d6
+- Monster Lvl x (if boss)
+    - HP: 2 * x * d6 (+d6)
+    - DP: x/2 * d6 (+d6/2)
+    - SP: x * d6 (+x)
 
 #### Battle
 - when a hero enters a tile which is occupied by a monster, a battle forms
-- the character entering the occupied tile is the attacker who starts the battle
+- the character entering the occupied tile is the attacker
+- when the player hits `space` his hero strikes on the defender and then it strikes back
 - the attacker strikes on the defender, then the defender strikes and this continues until one of the characters dies
 - after a won battle if the character is a hero, it levels up
 
