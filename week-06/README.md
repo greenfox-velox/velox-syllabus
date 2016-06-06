@@ -90,3 +90,6 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
  - Then it should show a map of tile like this: ![floor map](floor-map.png)
 
 ##### Walls
+ - Given the launched game
+ - When the map is rendered to the screen
+ - Then it should show floor and wall type tiles as well: ![full-map](full-map.png)
