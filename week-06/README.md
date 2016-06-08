@@ -1,7 +1,7 @@
 # Week 6 - Project
-
+ 
 ## Project for the week
-
+ 
 ### TkWanderer - The tkinter RPG game
 This is a hero based walking on tiles and killing monsters type of game. Heroes and monsters have levels and stats depending on their levels.
 
@@ -12,7 +12,8 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
 - every area contains 3-6 monsters
 - the monsters levels come from the number of the area
     - if its the Xth area, the mosters have lvl X (with 50% chance) or lvl X+1 (40%) or lvl X+2 (10%)
-- one of the monsters is the boss, who holds the key to the next area
+- one of the monsters is the boss
+- one of the monsters (not the boss) is holding the key, so if it is killed the hero goes to the next area, but also the boss has to be killed
 - the game screen also contains a text area where info of the characters' are provided
     - it shows all stats of the hero
     - if the hero is on the same tile with a monster, it shows all stats of the monster as well
@@ -20,7 +21,6 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
 #### Moving
 - the hero can move tile-by-tile in four directions on the screen by using the corresponding arrows (or wsad if preferred)
 - after every two move, the monsters move one tile as well
-- the hero is unable to move through a monster
 
 #### The Characters
 -  every character has a (max and current) health point (HP), a defend (DP) and strike point (SP)
@@ -82,12 +82,12 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
  
 ##### Walls
  - Given the launched game
- - When the map is rendered to the screen
- - Then it should show floor and wall type tiles as well: ![full map](full-map.png)
+ - When the map is rendered on the screen
+ - Then it should show floor ![wall.png](assets/wall.png) and wall type tiles as well: ![full map](full-map.png)
  
 ##### Hero
  - Given the launched game
- - When the map is rendered to the screen
+ - When the map is rendered on the screen
  - Then it should show a hero on the top-left corner: ![hero](assets/hero-down.png) 
 
  ![hero map](hero-map.png)
@@ -121,4 +121,24 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
  - When the hero is moved by the arrow keys towards the wall tile
  - Then it should not move, only its direction should change if necessary
 
+##### Skeletons
+ - Give the launched game
+ - When the map is rendered on the screen
+ - Then 3 skeletons ![assets/skeleton.png](assets/skeleton.png) should be on the map, somewhere on floor type tiles
 
+##### Boss
+ - Give the launched game
+ - When the map is rendered on the screen
+ - Then a boss ![assets/boss.png](assets/boss.png) should be on the map, somewhere on floor type tiles
+
+##### Stats
+ - Give the launched game
+ - When the map is rendered on the screen
+ - Then stats should appear below the map in a white box as black strings
+   - It should contain:
+      - The level of the Hero
+      - The max HP of the Hero
+      - The current HP of the Hero
+      - The DP of the Hero
+      - The SP of the Hero
+   - Like this: `Hero (Level 1)   HP: 8/10 | DP: 8 | SP: 6`
