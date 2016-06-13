@@ -145,4 +145,3 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
 
 ## Demo description
 A tile map RPG game using python's Tkinter library
-Create a fully functional image gallery using HTML, CSS and JavaScript
