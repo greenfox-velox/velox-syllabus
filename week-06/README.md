@@ -142,3 +142,7 @@ This is a hero based walking on tiles and killing monsters type of game. Heroes 
       - The DP of the Hero
       - The SP of the Hero
    - Like this: `Hero (Level 1)   HP: 8/10 | DP: 8 | SP: 6`
+
+## Demo description
+A tile map RPG game using python's Tkinter library
+Create a fully functional image gallery using HTML, CSS and JavaScript
