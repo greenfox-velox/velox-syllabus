@@ -20,9 +20,10 @@ Create a fully functional image gallery using HTML, CSS and JavaScript
 - main arrows swipe the main image (previous and next)
 - Image title shown
 
-### Nice to have
+### Nice to have (not necessarily in this order)
 - make it your own, design the style of the gallery
     - background
+    - sizes, positioning and orientation
     - borders
     - fonts
     - CSS / JS animations
