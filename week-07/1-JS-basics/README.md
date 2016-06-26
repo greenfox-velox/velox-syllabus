@@ -340,3 +340,26 @@ while (i < numbers.length) {
  }
 }
 ```
+
+### Functions
+```javascript
+'use strict';
+
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(1, 2));
+```
+
+#### Excercises
+ - [39.js](workshop/39.js)
+ - [40.js](workshop/40.js)
+ - [41.js](workshop/41.js)
+ - [42.js](workshop/42.js)
+ - [43.js](workshop/43.js)
+ - [44.js](workshop/44.js)
+ - [45.js](workshop/45.js)
+
+
+
