@@ -390,5 +390,16 @@ console.log(add(1, 2));
  - [44.js](workshop/44.js)
  - [45.js](workshop/45.js)
 
-
-
+#### NPM, packages, eslint
+- initialize a node project in today's working directory
+- install eslint
+- initialize eslint based on a popular style guide / AirBnB
+- install 3 missing dependencies causing all the ugly red error messages
+- install atom linter-eslint package
+- profit
+```
+npm init
+npm install -g eslint
+eslint --init
+npm i --save-dev eslint-plugin-import@^1.7.0 eslint-plugin-import@^1.7.0 eslint-plugin-jsx-a11y@^1.2.0
+```
