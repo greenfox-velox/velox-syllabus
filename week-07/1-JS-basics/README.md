@@ -390,7 +390,8 @@ console.log(add(1, 2));
  - [44.js](workshop/44.js)
  - [45.js](workshop/45.js)
 
-#### NPM, packages, eslint
+
+### NPM, packages, eslint
 - initialize a node project in today's working directory
 - install eslint
 - initialize eslint based on a popular style guide / AirBnB
