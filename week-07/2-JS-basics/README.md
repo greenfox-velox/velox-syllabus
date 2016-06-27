@@ -104,21 +104,104 @@ run(greet, 'Steve'); // "Hi Steve!"
 
 ### Array methods
 ```javascript
+console.log(['apple', 'pear', 'melon'].indexOf('pear')); // 1
 
+['apple', 'pear', 'melon'].forEach(function(e) {
+  console.log(e);
+});
+
+
+var triples = [1, 2, 3, 4, 5].map(function(e) {
+  return e * 3;
+});
+console.log(triples); // [3, 6, 9, 12, 15]
+
+var evens = [1, 2, 3, 4, 5].filter(function(e) {
+  return e % 2 === 0;
+});
+console.log(evens); // [2, 4]
+
+var isAllEven = [2, 6, 14, 5, 4].every(function(e) {
+  return e % 2 === 0;
+});
+console.log(isAllEven); // false
+
+var isAnyEven = [2, 6, 14, 5, 4].some(function(e) {
+  return e % 2 === 0;
+});
+console.log(isAnyEven); // true
+
+var letters = 'apple'.split('');
+console.log(letters); // ['a', 'p', 'p', 'l', 'e']
 ```
+
+#### Excercises
+try to avoid using for and while (except for the prime detection)
+ - [04.js](workshop/04.js)
+ - [05.js](workshop/05.js)
+ - [06.js](workshop/06.js)
 
 
 ### Object literal
 ```javascript
+var student = {
+  name: 'Darth Vader',
+  age: 42,
+  isForceSensitive: true
+};
 
+console.log(student.name); // 'Darth Vader'
+var key = 'age'
+console.log(student[key]); // 42
+Object.keys(student); // ['name', 'age', 'isForceSensitive']
 ```
+
+#### Excercises
+ - [07.js](workshop/07.js)
+ - [08.js](workshop/08.js)
 
 ### method and this
 ```javascript
+var car = {
+  km: 120000,
+  ride: function(km) {
+    this.km += km;
+  }
+};
 
+car.ride(200);
+console.log(car.km); // 120200
 ```
+
+#### Excercises
+ - [09.js](workshop/09.js)
 
 ### Constructor
 ```javascript
+function Car(startKm) {
+  this.km = startKm;
+  this.ride = function(km) {
+    this.km += km;
+  }
+}
+
+var car = new Car(120000);
+
+car.ride(200);
+console.log(car.km); // 120200
 ```
 #### Excercises
+ - [10.js](workshop/10.js)
+
+### Math
+[documentation](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Math)
+
+#### Excercises
+##### Cows and Bulls
+Create a class what is capable of playing exactly one game of Cows and Bulls (CAB). The player have to guess a 4 digit number. For every digit that the player guessed correctly in the correct place, they have a “cow”. For every digit the player guessed correctly in the wrong place is a “bull.”
+
+ - The CAB object should have a random 4 digit number, which is the goal to guess.
+ - The CAB object should have a state where the game state is stored (playing, finished).
+ - The CAB object should have a counter where it counts the guesses.
+ - The CAB object should have a guess method, which returns a string of the guess result
+ - All methods, including constructor should be tested
