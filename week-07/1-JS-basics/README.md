@@ -404,3 +404,7 @@ npm install -g eslint
 eslint --init
 npm i --save-dev eslint-plugin-import@^1.7.0 eslint-plugin-import@^1.7.0 eslint-plugin-jsx-a11y@^1.2.0
 ```
+
+### Bonus Excercises
+- rewrite the python command line [recursion exercises](../../week-04/4-recursion) in JavaScript
+- watch https://www.destroyallsoftware.com/talks/wat and reproduce the JavaScript examples
