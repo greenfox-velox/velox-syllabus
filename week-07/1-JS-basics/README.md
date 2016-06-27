@@ -3,6 +3,33 @@
 ## Materials for this day
 - https://www.youtube.com/playlist?list=PL4cUxeGkcC9i9Ae2D9Ee1RvylH38dKuET
 
+### Assignment review
+ - Comments
+ - Types
+   - number
+   - string
+   - boolean
+   - null
+   - undefined
+   - array
+ - Operators
+   - arithmetric
+   - logical
+   - comparison
+   - assignment
+   - typeof
+ - Control structures
+   - `if`
+   - `while`
+   - `for`
+   - `break`
+   - `continue`
+ - Functions
+   - definition
+   - invocation
+   - arguments
+   - return value
+
 ## Required installs
 - Please install Node.js v4.4.6
 https://nodejs.org/en/download/
@@ -135,6 +162,8 @@ false;
 
 1 < 2;
 1 > 2;
+1 >= 2;
+1 <= 2;
 1 === 2;
 1 !== 2;
 true || false;

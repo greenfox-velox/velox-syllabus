@@ -5,29 +5,119 @@
  - https://www.youtube.com/watch?v=xHLd36QoS4k
  - http://javascript.info/tutorial/functions-declarations-and-expressions
  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+   - till the properties chapter
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+ - http://colintoh.com/blog/5-array-methods-that-you-should-use-today
+   - expect Demethodizing chapter
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+ - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
  - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects 
-   - except getters and setters
+   - except getters and setters chapter
+ - https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/switch
+
+### Assignment review
+ - switch
+ - function expressions
+   - function as variable
+   - function as parameter
+   - anonymus function
+ - array methods
+   - `push`
+   - `pop`
+   - `shift`
+   - `unshift`
+   - `indexOf`
+   - `slice`
+   - `splice`
+   - `concat`
+   - `forEach`
+   - `filter`
+   - `map`
+   - `every`
+   - `some`
+ - object
+   - literal
+   - creating, adding, modifying, accessing and deleting properties
+   - methods
+   - `this`
+   - constructor function
 
 ## Workshop
+### Switch
+```javascript
+var number = 1;
+
+switch (number) {
+  case 0:
+    console.log('zero');
+    break;
+  case 1:
+    console.log('one');
+    break;
+  case 2:
+    console.log('two');
+    break;
+  default:
+    console.log('many');
+    break;
+}
+```
+
+#### Excercise
+ - []
 
 ### functions as variables
 ```javascript
 'use strict'
 
+function greet(name) {
+  console.log('Hi ' + name + '!');
+}
 
+var myGreet = greet;
+myGreet('Steve'); // "Hi Steve!"
 ```
-
 ```javascript
-var students = [
-  {name: 'Rezso', 'age': 9.5, 'candies': 2},
-  {'name': 'Gerzson', 'age': 10, 'candies': 1},
-  {'name': 'Aurel', 'age': 7, 'candies': 3},
-  {'name': 'Zsombor', 'age': 12, 'candies': 5},
-  {'name': 'Olaf', 'age': 12, 'candies': 7},
-  {'name': 'Teodor', 'age': 3, 'candies': 2}
-];
+'use strict';
 
+var add = function (a, b) {
+  return a + b;
+};
 
-// create a function that counts the students that
-// has more than 4 candies
+console.log(add(1, 2)); // 3
 ```
+```javascript
+function run(func, arg) {
+  func(arg);
+}
+
+function greet(name) {
+  console.log('Hi ' + name + '!');
+}
+
+run(greet, 'Steve'); // "Hi Steve!"
+```
+#### Excercises
+ - [01.js](workshop/01.js) call with other
+ - call in a loop
+
+### Array methods
+```javascript
+
+```
+
+
+### Object literal
+```javascript
+
+```
+
+### method and this
+```javascript
+
+```
+
+### Constructor
+```javascript
+```
+#### Excercises
