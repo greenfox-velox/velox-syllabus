@@ -64,7 +64,7 @@ switch (number) {
 ```
 
 #### Excercise
- - []
+ - [01.js](workshop/01.js)
 
 ### functions as variables
 ```javascript
@@ -98,8 +98,9 @@ function greet(name) {
 run(greet, 'Steve'); // "Hi Steve!"
 ```
 #### Excercises
- - [01.js](workshop/01.js) call with other
- - call in a loop
+ - [02.js](workshop/02.js)
+ - [03.js](workshop/03.js)
+
 
 ### Array methods
 ```javascript
