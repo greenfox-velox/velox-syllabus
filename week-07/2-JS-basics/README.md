@@ -140,6 +140,7 @@ try to avoid using for and while (except for the prime detection)
  - [04.js](workshop/04.js)
  - [05.js](workshop/05.js)
  - [06.js](workshop/06.js)
+ - [07.js](workshop/07.js)
 
 
 ### Object literal
@@ -157,8 +158,8 @@ Object.keys(student); // ['name', 'age', 'isForceSensitive']
 ```
 
 #### Excercises
- - [07.js](workshop/07.js)
  - [08.js](workshop/08.js)
+ - [09.js](workshop/09.js)
 
 ### method and this
 ```javascript
@@ -174,7 +175,7 @@ console.log(car.km); // 120200
 ```
 
 #### Excercises
- - [09.js](workshop/09.js)
+ - [10.js](workshop/10.js)
 
 ### Constructor
 ```javascript
@@ -191,7 +192,17 @@ car.ride(200);
 console.log(car.km); // 120200
 ```
 #### Excercises
- - [10.js](workshop/10.js)
+ - [11.js](workshop/11.js)
+
+### Strings
+[documentation](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String)
+#### Converter object
+Create an object that has several converter methods:
+ - `float2string(num)` it should convert a float number to a string, for example 12.24 -> '12.24'
+ - `string2float(str)` it should convert a string to a float number, for example '12.24' -> 12.24
+ - `int2roman(number)` it should convert an int number to a roman number as a string, for example 12 -> 'XII'
+ - `roman2int(number)` it should convert a roman number as a string to an int, for example 'XII' -> 12
+please try to avoid using the built in conversion methods
 
 ### Math
 [documentation](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Math)
@@ -205,3 +216,4 @@ Create a class what is capable of playing exactly one game of Cows and Bulls (CA
  - The CAB object should have a counter where it counts the guesses.
  - The CAB object should have a guess method, which returns a string of the guess result
  - All methods, including constructor should be tested
+
