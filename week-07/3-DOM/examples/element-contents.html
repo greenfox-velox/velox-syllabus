@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM: Element Contents</title>
+</head>
+<body>
+  <p class="container">This was my <strong>original content</strong>.</p>
+  <script>
+    'use strict';
+    
+    var container = document.querySelector('.container');
+    console.log('innerHTML:', container.innerHTML);
+    console.log('textContent:', container.textContent);
+    container.innerHTML = 'This is your <strong>new content!</strong>';
+  </script>
+</body>
+</html>

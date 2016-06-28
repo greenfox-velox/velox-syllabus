@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM: ClassList</title>
+</head>
+<body>
+  <div class="asteroid b325">an asteroid</div>
+
+  <script>
+    'use strict';
+
+    var asteroid = document.querySelector('div');
+    console.log(asteroid.classList.value);
+    console.log('asteroid?', asteroid.classList.contains('asteroid'));
+    console.log('planet?', asteroid.classList.contains('planet'));
+    asteroid.classList.add('new-class');
+    asteroid.classList.remove('asteroid');
+    console.log('still asteroid?', asteroid.classList.contains('asteroid'));
+  </script>
+</body>
+</html>

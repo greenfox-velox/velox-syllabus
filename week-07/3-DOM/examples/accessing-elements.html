@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOM: Accessing Elements</title>
+</head>
+<body>
+  <div id="b325" class="asteroid">The King</div>
+  <div class="asteroid b326">The Conceited Man</div>
+  <div class="asteroid b328">The Businessman</div>
+  <div class="asteroid b329">The Lamplighter</div>
+
+  <script>
+    'use strict';
+
+    var king = document.getElementById('b325');
+    console.log('king', king);
+    var lamplighter = document.querySelector('.b329');
+    console.log('lamplighter', lamplighter);
+
+    var asteroids = document.querySelectorAll('div.asteroid');
+    for (var i = 0; i < asteroids.length; i++) {
+      console.log(asteroids[i]);
+    }
+  </script>
+</body>
+</html>
