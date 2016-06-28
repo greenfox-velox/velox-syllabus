@@ -109,6 +109,10 @@ asteroidList.removeChild(businessAsteroid);
 ```
 
 #### Exercises
+- [createelement-1.html](workshop/createelement-1.html)
+- [createelement-2.html](workshop/createelement-2.html)
+- [createelement-3.html](workshop/createelement-3.html)
+- [createelement-4.html](workshop/createelement-4.html)
 
 ### Events
 ```javascript
@@ -120,6 +124,8 @@ asteroidList.removeChild(businessAsteroid);
 ```
 
 #### Exercises
+- [events-1.html](workshop/events-1.html)
+- [events-2.html](workshop/events-2.html)
 
 ### Bookmarklets
 ```HTML
