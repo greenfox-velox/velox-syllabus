@@ -40,9 +40,7 @@
 <script src="something.js"></script>
 ```
 
-#### Exercises
-
-### Accessing elements
+### Selecting elements
 ```javascript
 var king = document.getElementById('b325');
 var lamplighter = document.querySelector('.b329');
@@ -54,21 +52,7 @@ for (var i = 0; i < asteroids.length; i++) {
 ```
 
 #### Exercises
-
-### Creating, inserting & removing elements
-```javascript
-var asteroidList = document.querySelector('ul.asteroids');
-
-var newAsteroid = document.createElement('li');
-newAsteroid.id = 'b555';
-newAsteroid.textContent = 'The Green Fox';
-asteroidList.appendChild(newAsteroid);
-
-var businessAsteroid = document.querySelector('.b328');
-asteroidList.removeChild(businessAsteroid);
-```
-
-#### Exercises
+- [queryselector-1.html](workshop/queryselector-1.html)
 
 ### An element's contents
 ```javascript
@@ -79,6 +63,10 @@ asteroid.innerHTML = 'This is your <strong>new content!</strong>';
 ```
 
 #### Exercises
+- [content-1.html](workshop/content-1.html)
+- [content-2.html](workshop/content-2.html)
+- [content-3.html](workshop/content-3.html)
+- [content-4.html](workshop/content-4.html)
 
 ### Element attributes
 ```javascript
@@ -88,6 +76,7 @@ littlePrince.setAttribute('src', 'http://deji.chez.com/dessins/pp1.gif');
 ```
 
 #### Exercises
+- [attribute-1.html](workshop/attribute-1.html)
 
 ### Classes
 ```javascript
@@ -101,6 +90,22 @@ littlePrince.setAttribute('src', 'http://deji.chez.com/dessins/pp1.gif');
   asteroid.classList.add('new-class');
   asteroid.classList.remove('asteroid');
   console.log('still asteroid?', asteroid.classList.contains('asteroid'));
+```
+
+#### Exercises
+- [classlist-1.html](workshop/classlist-1.html)
+
+### Creating, inserting & removing elements
+```javascript
+var asteroidList = document.querySelector('ul.asteroids');
+
+var newAsteroid = document.createElement('li');
+newAsteroid.id = 'b555';
+newAsteroid.textContent = 'The Green Fox';
+asteroidList.appendChild(newAsteroid);
+
+var businessAsteroid = document.querySelector('.b328');
+asteroidList.removeChild(businessAsteroid);
 ```
 
 #### Exercises
@@ -122,3 +127,5 @@ littlePrince.setAttribute('src', 'http://deji.chez.com/dessins/pp1.gif');
 ```
 
 #### Exercises
+- [bookmarklet-1.html](workshop/bookmarklet-1.html)
+- [bookmarklet-2.html](workshop/bookmarklet-2.html)
