@@ -30,3 +30,18 @@ Create a fully functional image gallery using HTML, CSS and JavaScript
 - list of thumbnails for all the images
 - clicking on thumbnail loads the image to the main container
 - only a few thumbnails showing, can move left and right with the arrows on the list
+
+## How to do dis?
+
+### Plan ALL the things!
+- Imagine what you have to do
+- Create sketch-up(s)
+- Design your code, what will be where
+- Plan your functions and variables
+
+### Create your own stories
+- Not necessarily in trello, but its a nice thing to do
+- Break down the functions to simple ones, like:
+    - Show the main image
+    - Replace the main image with js
+    - ...
