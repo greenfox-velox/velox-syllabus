@@ -90,7 +90,7 @@ For the fourh excercise you should check out:
 https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Date
 
  - [03.js](workshop/03.js)
- - [04.js](workhsop/04.js)
+ - [04.js](workshop/04.js)
 
 ### reduce
 ```javascript
