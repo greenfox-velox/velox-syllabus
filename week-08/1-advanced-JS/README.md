@@ -30,10 +30,15 @@
 
 ## Workshop
 Please write unit tests for all your objects and functions
+In your working directory:
+```bash
+npm init
+npm install tape
+```
 
 ### and, or
 ```javascript
-var fruit = true || 'apple';
+var fruit = 'apple' || true;
 console.log(fruit); // apple
 
 var string = '' && 'monkey';
