@@ -18,9 +18,22 @@
 // enter()
 //  - it should store the date of entering
 //
+// getEnterDate()
+//  - it should return the date of the last entering
+//
 // leave(price)
 //  - it should decrease the balance with the price of the parking (that is given in an argument)
 //
 // getStats()
-//  
+//  - it should give back a string like:
+//    "Type: volvo, Color: red, Balance: 500" 
+//
+// 
+// Create a CarPark constructor
+// it should take 2 parameters
+//  - income: the initial credits as a number (eg: 4000)
+//  - startTime: the current date
+//
+// Methods:
+// 
 //
