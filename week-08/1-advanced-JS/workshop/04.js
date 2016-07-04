@@ -15,7 +15,7 @@
 // unique for all the cars, staeting form 0
 //
 // Methods:
-// enter()
+// enter(enterDate)
 //  - it should store the date of entering
 //
 // getEnterDate()
@@ -34,6 +34,23 @@
 //  - income: the initial credits as a number (eg: 4000)
 //  - startTime: the current date
 //
-// Methods:
-// 
+// The parking fee: 40 per hours (only every whole hour)
 //
+// Methods:
+// carEnter(car)
+//  - It should add a car to the garage and add its stored startTime
+//
+// carLeave(id)
+//  - It should remove the car with the given id and it should charge from its balance
+//
+// elapseTime(hours)
+//  - It should increment the time with the hours
+//
+// Optional Methods:
+//
+// getStats()
+//  - It should return a string like:
+//    "Cars: 4, Time: 1234423453, Income: 1400"
+//
+// getParkingCarsSince(hours)
+//  - It should return the number of cars that are parking since the given hours
