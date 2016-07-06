@@ -9,6 +9,7 @@
  - https://www.youtube.com/watch?v=JuyiVutx5vU
  - https://www.youtube.com/watch?v=y8xPMYwQ0U8
  - https://www.youtube.com/watch?v=1V7rpblmruw
+ - https://www.youtube.com/watch?v=qN0dkXj7jc0
 
 ## Assignment review
  - setTimeout
@@ -54,9 +55,11 @@ xhr.open('GET', 'http://calapi.inadiutorium.cz/api/v0/en/calendars/default/2015/
 xhr2.send();  
 ```
 
-#### Excercises
- - [03.js](workshop/03.js)
- - [04.js](workshop/04.js)
+#### Date page
+create a page:
+it should have a button that fires a request to the calendar api described [here](http://calapi.inadiutorium.cz/)
+if it responses, it should wirte the current work day 
+
 
 ### setTimeout setInterval
 ```javascript
