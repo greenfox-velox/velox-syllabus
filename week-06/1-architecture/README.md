@@ -57,9 +57,25 @@
     - current game
 - Stories
     - draw a screen with tiles
+        - draw one tile
+        - draw the whole map with tiles
+        - create a wall
+        - draw some walls on the map
     - place a character on it and move with key bindings
+        - draw a character
+        - bind keyevents and handle them
+        - handle walls
+        - handle end of map
     - TDD create the heroes and monsters
+        - this can be done easily test driven
+        - create a class for the hero
+        - stats
+        - strike
+        - lvl UP
     - create area and gamelogic
+        - randMap
+        - nextArea
+        - generate monsters and BOSS
 - Break down the stories to tasks
     - To classes
     - To methods
