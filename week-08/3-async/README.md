@@ -52,7 +52,7 @@ Please dont use the Sync versions of the methods
 ```javascript
 var xhr = new XMLHttpRequest();                                              
 xhr.onload = function() {                                                    
-  console.log(xhr2.response);                                                 
+  console.log(xhr.response);                                                 
 };                                                                             
 xhr.open('GET', 'http://calapi.inadiutorium.cz/api/v0/en/calendars/default/2015/6/27')
 xhr.send();  
