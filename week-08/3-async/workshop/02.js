@@ -1,9 +1,11 @@
 'use strict';
 
-// create a function that has 2 paramteres
-//  - fileNames: an array of filenames
-//  - callback
+// create a function takes three parameters:
+//  - fileName: the name of the file
+//  - letter: a character
+//  - cb: callback (with two parameters: error and the result)
 //
-// it should read the files and call the callback with their content concated
-// it should have the same order as the filenames
-// it should pass the error as a parameter
+// it should read the file and count the letters in the content
+// and it should call the callback with the counted number
+// if there is some error it should call the callback with the error
+//
