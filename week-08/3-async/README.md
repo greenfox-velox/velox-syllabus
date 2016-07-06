@@ -61,7 +61,7 @@ xhr2.send();
 #### Date page
 create a page:
 it should have a button that fires a request to the calendar api described [here](http://calapi.inadiutorium.cz/)
-if it responses, it should wirte the current work day 
+if it responses, it should wirte the current work day and how many celebrations are on that day
 
 
 ### setTimeout setInterval
