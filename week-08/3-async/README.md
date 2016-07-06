@@ -44,6 +44,9 @@ fs.readFile('apple.txt', function(err, rawContent) {
 Please dont use the Sync versions of the methods
  - [01.js](workshop/01.js)
  - [02.js](workshop/02.js)
+ - [03.js](workshop/03.js)
+ - [04.js](workshop/04.js)
+ - [05.js](workshop/05.js)
 
 ### XMLHttpRequest
 ```javascript
