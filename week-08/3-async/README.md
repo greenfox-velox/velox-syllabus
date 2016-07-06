@@ -10,8 +10,17 @@
  - https://www.youtube.com/watch?v=y8xPMYwQ0U8
  - https://www.youtube.com/watch?v=1V7rpblmruw
 
-## Workshop
+## Assignment review
+ - setTimeout
+ - setInterval
+ - clearTimeout
+ - clearInterval
+ - blocking / non blocking
+ - fs.readFile
+ - fs.writeFile
+ - AJAX
 
+## Workshop
 ### Read Write
 ```javascript
 var fs = require('fs');
@@ -31,20 +40,31 @@ fs.readFile('apple.txt', function(err, rawContent) {
 ```
 
 #### Excercises
+Please dont use the Sync versions of the methods
+ - [01.js](workshop/01.js)
+ - [02.js](workshop/02.js)
 
 ### XMLHttpRequest
 ```javascript
-
-
-
+var xhr = new XMLHttpRequest();                                              
+xhr.onload = function() {                                                    
+  console.log(xhr2.response);                                                 
+};                                                                             
+xhr.open('GET', 'http://calapi.inadiutorium.cz/api/v0/en/calendars/default/2015/6/27')
+xhr2.send();  
 ```
 
 #### Excercises
+ - [03.js](workshop/03.js)
+ - [04.js](workshop/04.js)
+
+### setTimeout setInterval
+```javascript
+
+```
 
 
-
-
-### Candy game
+#### Candy game
 
 gather 10.000 candies!
 clicking the ‘Create candies’ button gives you 1 candy.
