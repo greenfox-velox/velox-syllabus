@@ -55,7 +55,7 @@ xhr.onload = function() {
   console.log(xhr2.response);                                                 
 };                                                                             
 xhr.open('GET', 'http://calapi.inadiutorium.cz/api/v0/en/calendars/default/2015/6/27')
-xhr2.send();  
+xhr.send();  
 ```
 
 #### Date page
