@@ -24,21 +24,24 @@
 - Style guide: https://zpl.io/scene/Z2u9aJ0
 - Text styles:
 ```css
-.heading
-	font-family: Lato-Light
-	font-size: 64px
-	color: #ffffff
+.heading {
+	font-family: Lato-Light, sans-serif;
+	font-size: 64px;
+	color: #ffffff;
+}
 
-.todo-item
-	font-family: Lato-Regular
-	font-size: 26px
-	line-height: 2.2
-	color: #cecece
+.todo-item {
+	font-family: Lato-Regular, sans-serif;
+	font-size: 26px;
+	line-height: 2.2;
+	color: #cecece;
+}
 
-.button-text
-	font-family: Lato-Regular
-	font-size: 26px
-	color: #ffffff
+.button-text {
+	font-family: Lato-Regular, sans-serif;
+	font-size: 26px;
+	color: #ffffff;
+}
 ```
 - if you want more info on the mockup,
 send your email address to Aniko for a Zeplin invite!
