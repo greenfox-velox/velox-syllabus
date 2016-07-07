@@ -52,16 +52,16 @@ Please dont use the Sync versions of the methods
 ```javascript
 var xhr = new XMLHttpRequest();                                              
 xhr.onload = function() {                                                    
-  console.log(xhr2.response);                                                 
+  console.log(xhr.response);                                                 
 };                                                                             
 xhr.open('GET', 'http://calapi.inadiutorium.cz/api/v0/en/calendars/default/2015/6/27')
-xhr2.send();  
+xhr.send();  
 ```
 
 #### Date page
 create a page:
 it should have a button that fires a request to the calendar api described [here](http://calapi.inadiutorium.cz/)
-if it responses, it should wirte the current work day 
+if it responses, it should wirte the current work day and how many celebrations are on that day
 
 
 ### setTimeout setInterval
