@@ -21,6 +21,27 @@
 ### Create the form
 - HTML
 - CSS
+- Style guide: https://zpl.io/scene/Z2u9aJ0
+- Text styles:
+```css
+.heading
+	font-family: Lato-Light
+	font-size: 64px
+	color: #ffffff
+
+.todo-item
+	font-family: Lato-Regular
+	font-size: 26px
+	line-height: 2.2
+	color: #cecece
+
+.button-text
+	font-family: Lato-Regular
+	font-size: 26px
+	color: #ffffff
+```
+- if you want more info on the mockup,
+send your email address to Aniko for a Zeplin invite!
 
 ### Create the JS
 - on page load, get all todos from the API
