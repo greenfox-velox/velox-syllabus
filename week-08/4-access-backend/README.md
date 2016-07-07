@@ -7,3 +7,39 @@
 - https://www.youtube.com/watch?v=dBiWCo3VZpo
 - https://www.youtube.com/watch?v=UQuIhm79GdY
 - Install Postman for Chrome, it could come in handy
+
+## Assignment review
+- API
+- host
+- endpoint
+- request data
+- response data
+- response status
+- headers
+- RESTful API
+    - GET
+    - POST
+    - PUT
+    - DELETE
+- `XMLHttpRequest`
+    - callbacks
+        - `onload`
+        - `onreadystatechange`
+    - `responseText`
+- `open()`
+    - parameters
+        - method
+        - url
+        - async
+- `send()`
+    - parameters
+        - data
+- `setRequestHeader()`
+
+## Workshop exercise
+
+### The Yodanator
+- Create a simple web app, that can yodanize a sentence
+- Have an input field and a button.
+- On hitting the button, send a request to the Yoda API, with the content of the input field
+- Display the response
