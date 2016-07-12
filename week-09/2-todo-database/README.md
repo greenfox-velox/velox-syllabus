@@ -77,6 +77,7 @@ $ mysql bookstore < data.sql
 - list all tables
 - select all data from all tables
 - create a query selecting all books with its name, authors name, category name, publishers name and price
+
 ---
 - create a database for Todos
 - plan and create the only table you'll need
