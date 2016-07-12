@@ -74,6 +74,10 @@ CREATE DATABASE bookstore;
 ```
 $ mysql bookstore < data.sql
 ```
+- for windows users: Navigate to the directory where you have mysql and issue this command, changing the bold values to your file/database locations.
+```
+c:\mysql\bin\> mysql -u USERNAME -p bookstore < data.sql
+```
 - list all tables
 - select all data from all tables
 - create a query selecting all books with its name, authors name, category name, publishers name and price
