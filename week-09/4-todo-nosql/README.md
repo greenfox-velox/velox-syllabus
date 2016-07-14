@@ -63,6 +63,8 @@ $ mongoimport --db test --collection restaurants --drop --file ~/Downloads/resta
 [MongoDB Cheat Sheet 1](https://www.cheatography.com/ovi-mihai/cheat-sheets/mongodb/)
 [MongoDB Cheat Sheet 2](https://blog.codecentric.de/files/2012/12/MongoDB-CheatSheet-v1_0.pdf)
 
+- start a mongo client by typing `mongo` and
+
 #### Write a mongodb query
 
 - to display all the documents in the collection restaurants.
