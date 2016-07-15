@@ -5,7 +5,7 @@
 ### Organizing your JavaScript code, MVC
 Learning JavaScript Design Patterns
 book by Addy Osmani
-https://addyosmani.com/resources/essentialjsdesignpatterns/book/
+https://addyosmani.com/resources/essentialjsdesignpatterns/book/   
 Chapters to read:
 - Introduction and everything until the patterns list
 - Constructor Pattern
@@ -21,14 +21,17 @@ Videos to watch when bored with reading:
 - Prototypes in JavaScript https://www.youtube.com/watch?v=riDVvXZ_Kb4
 - Fast or flexible?  https://www.youtube.com/watch?v=R39zdSLd8ic
 
+### Testing
+- Unit testing: how to get your team started  https://www.youtube.com/watch?v=TWBDa5dqrl8 (3rd thing)
+- The BEST way to do mocking https://www.youtube.com/watch?v=fgqh-OZjpYY
+
 #### Nice to have
 - The rest of Addy Osmani's book
 - Example code to check: JavaScript TodoMVC https://github.com/tastejs/todomvc/tree/gh-pages/examples/vanillajs
 - Losing motivation  https://www.youtube.com/watch?v=RQg_Q4HYYpg
 
-### Testing
-- Unit testing: how to get your team started  https://www.youtube.com/watch?v=TWBDa5dqrl8 (3rd thing)
-- The BEST way to do mocking https://www.youtube.com/watch?v=fgqh-OZjpYY
+
+---
 
 
 ## Stories
