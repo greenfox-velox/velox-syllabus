@@ -1,4 +1,4 @@
-# Week 8 - Backend
+# Week 8 - Connecting to a Backend
 
 ## Days
 - JS OO + TAPE
