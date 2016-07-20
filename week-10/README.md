@@ -55,11 +55,22 @@ a name (string),
 a calorie (number),
 a date (date)
 #### Create an endpoint: "/meals"
-When receiving the meal in the post data in a "POST" request, the server should add a new meal to the database.
-Use the "body-parser" module for decoding the post data.
+When receiving the meal in the post data in a `POST` request, the server should add a new meal to the database.
+Use the `body-parser` module for decoding the post data.
 You can try your application with the following command:
 `curl --data '{"name": "something", "calories": 200, "date": "2016-01-26:12:03:10"}' -H 'content-type:application/json'  http://localhost:3000/meals`
-It should reply with `{"status": "ok"}` if the request was successful.
+It should reply with the newly created meal object plus status ok if the request was successful. Example response:
+```JavaScript
+{
+  "status": "ok",
+  "meal": {
+    "id": 123,
+    "name": "something",
+    "calories": 200,
+    "date": "2016-01-26:12:03:10"
+  }
+}
+```
 
 
 ### Add meal frontend
@@ -67,12 +78,12 @@ It should reply with `{"status": "ok"}` if the request was successful.
 - Create an input field for the name of the meal
 - Create an input field for the calories
 - Create an input field for the date
-- Create a button that sends an "POST" http request to the server, to the
-"/meals" endpoint with the fields from the inputs.
+- Create a button that sends an `POST` http request to the server, to the
+`/meals` endpoint with the fields from the inputs.
 
 ### List meals backend
 #### Create an endpoint: "/meals"
-When receiving a "GET" request, the server should respond with the list of meals.
+When receiving a `GET` request, the server should respond with the list of meals.
 like:
 ```json
 {
@@ -91,12 +102,25 @@ It should show the name, calories and date for each.
 
 ### Delete meals backend
 #### Create an endpoint: "/meals/:id"
-When receiving a "DELETE" request, the backend should delete the meal with the given id.
-If the delete was successful, it should respond `{"status": "ok"}`, otherwise it should respond
+When receiving a `DELETE` request, the backend should delete the meal with the given id.
+If the delete was successful, it should respond
+```JavaScript
+{
+  "status": "ok",
+  "meal": {
+    "id": 123
+  }
+}
+```
+, otherwise it should respond
 `{"status": "not exists"}`
 
 You can try your application with the following command:
 `curl -H 'content-type:application/json' -X 'DELETE' http://localhost:3000/meals/3`
+
+### Delete meals frontend
+Add a delete button to each row in the meals list. Clicking a button should send a `DELETE` http request to the server, to the
+`/meals/:id` endpoint with the id of the corresponding meal, after a user confirmation asking "Are you sure you want to delete this meal?".
 
 ### Filter meals frontend
 Add a form for filtering the meal list for days. The form should have a date input, a button called 'filter', and one called 'all'.
