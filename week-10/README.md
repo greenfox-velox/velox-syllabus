@@ -67,7 +67,7 @@ It should reply with the newly created meal object plus status ok if the request
     "id": 123,
     "name": "something",
     "calories": 200,
-    "date": "2016-01-26:12:03:10"
+    "date": "2016-01-04T23:00:00.000Z"
   }
 }
 ```
