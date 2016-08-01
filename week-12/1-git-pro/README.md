@@ -12,6 +12,7 @@ This day we learn how we can use Git for working in teams
     - javascript
     - java
 - create a repo and a project
+- create a gitignore file with appropriate content for the chosen language (JAVA team should search for IntelliJ IDEA gitignore ;) )
 - assign your team members to
     - Member A
     - Member B
