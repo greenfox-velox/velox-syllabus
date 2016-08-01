@@ -20,6 +20,7 @@ This day we learn how we can use Git for working in teams
 - and after that follow your section separately
 
 ### Member A tasks
+- clone the empty project repo
 - create a method called `greet` in a file/class of your choice that prints out your name
 - commit as 'a1' and push
 - wait for abc1 commits then pull
@@ -70,6 +71,7 @@ This day we learn how we can use Git for working in teams
     - if its acceptable, accept it
 
 ### Member B tasks
+- clone the empty project repo
 - create a method called `count` in a file/class of your choice that prints out your age
 - commit as 'b1' and push
 - wait for abc1 commits then pull
@@ -120,6 +122,7 @@ This day we learn how we can use Git for working in teams
     - if its acceptable, accept it
 
 ### Member C tasks
+- clone the empty project repo
 - create a method called `cheer` in a file/class of your choice that prints out the team name
 - commit as 'c1' and push
 - wait for abc1 commits then pull
