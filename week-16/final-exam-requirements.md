@@ -22,6 +22,7 @@ The student, on their own, is able to:
 - Use git:
   - Commit, add, push, pull
   - Resolving a simple merge conflict
+  - Creating a pull request
 - Use databases:
   - Implement database calls with JavaScript / Java
   - Write a simple SQL query for a single table:
