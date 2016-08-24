@@ -32,12 +32,13 @@ The student, on their own, is able to:
   - Passing command line arguments to commands
 - Write backend code:
   - Implement an HTTP endpoint
-  - Deploy application to hosting service
 - Write frontend code:
   - Create simple layout in CSS and HTML based on a given specification
   - Select any HTML element using CSS selectors
   - Handle events and change the DOM
   - Change attributes and properties on HTML elements using JavaScript
+- Deploy application to hosting service
+- Differentiate between backend and frontend functionality
 - Refactor code:
   - Create meaningful names for functions, classes and variables
   - Split bigger functions to smaller ones
