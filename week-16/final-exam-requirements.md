@@ -15,7 +15,6 @@ The student, on their own, is able to:
 - Write unit tests for functions and methods without mocking dependencies
 - Include and call 3rd party libraries in their code
 - Use frameworks and know its components and processes
-- Use a build pipeline
 - Use async structures:
   - Writing functions that are taking and calling callbacks
   - Determining the calling order in nested callbacks
