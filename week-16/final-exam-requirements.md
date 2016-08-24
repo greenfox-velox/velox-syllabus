@@ -38,9 +38,6 @@ The student, on their own, is able to:
   - Select any HTML element using CSS selectors
   - Handle events and change the DOM
   - Change attributes and properties on HTML elements using JavaScript
-- Use build tools:
-  - Running tasks
-  - Modifying configs of tasks
 - Refactor code:
   - Create meaningful names for functions, classes and variables
   - Split bigger functions to smaller ones
