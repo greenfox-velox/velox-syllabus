@@ -3,7 +3,7 @@
 The student, on their own, is able to:
 - Follow indentation and coding styleguides in their code
 - Use and set up linters
-- Create variables, functions, objects in JavaScript / Ruby based on a given specification
+- Create variables, functions, objects in JavaScript / Java based on a given specification
 - Use conditions and loops:
   - Filtering
   - Finding elements or index
@@ -15,15 +15,15 @@ The student, on their own, is able to:
 - Write unit tests for functions and methods without mocking dependencies
 - Include and call 3rd party libraries in their code
 - Use frameworks and know its components and processes
-- Use a build pipeline
 - Use async structures:
   - Writing functions that are taking and calling callbacks
   - Determining the calling order in nested callbacks
 - Use git:
   - Commit, add, push, pull
   - Resolving a simple merge conflict
+  - Creating a pull request
 - Use databases:
-  - Implement database calls with JavaScript / Ruby
+  - Implement database calls with JavaScript / Java
   - Write a simple SQL query for a single table:
     - Listing, Deleting, Updating, Creating rows with specific values
 - Use the command line:
@@ -32,17 +32,15 @@ The student, on their own, is able to:
   - Passing command line arguments to commands
 - Write backend code:
   - Implement an HTTP endpoint
-  - Deploy application to hosting service
-- Wrtie frontend code:
+- Write frontend code:
   - Create simple layout in CSS and HTML based on a given specification
   - Select any HTML element using CSS selectors
   - Handle events and change the DOM
   - Change attributes and properties on HTML elements using JavaScript
-- Use build tools:
-  - Running tasks
-  - Modifying configs of tasks
+- Deploy application to hosting service
+- Differentiate between backend and frontend functionality
 - Refactor code:
-  - Create meaningfull names for functions, classes and variables
+  - Create meaningful names for functions, classes and variables
   - Split bigger functions to smaller ones
   - Separate functions to different files
-  - Point out code smells`
+  - Point out code smells
