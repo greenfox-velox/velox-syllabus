@@ -44,3 +44,6 @@ The student, on their own, is able to:
   - Split bigger functions to smaller ones
   - Separate functions to different files
   - Point out code smells
+- Design patterns:
+  - Explain the goal of some patterns
+  - Recognize some patterns
